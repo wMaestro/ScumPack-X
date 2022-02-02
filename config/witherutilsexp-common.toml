@@ -1,0 +1,6 @@
+
+[General]
+	#How fast the Sucker sucks XP in or pushing out.
+	#Range: 0 ~ 10
+	suckerSpeed = 2
+

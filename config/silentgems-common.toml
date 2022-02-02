@@ -1,0 +1,1038 @@
+
+[block]
+
+	[block.glowrose]
+		#The light level of free-standing glowroses.
+		#Existing glowroses may not update until broken and replaced.
+		#Requires a Minecraft restart
+		#Range: 0 ~ 15
+		normalLight = 10
+		#The light level of glowroses planted in vanilla flower pots
+		#Existing blocks may not update until broken and replaced.
+		#Requires a Minecraft restart
+		#Range: 0 ~ 15
+		pottedLight = 15
+
+[world]
+
+	#World generation settings. You must restart your game after changing these.
+	#Changes will not be reflected in chunks that have already generated, only new ones.
+	[world.18]
+
+		#Settings for ores. Setting either vein count or vein size to zero (0) will stop that ore from generating.
+		#Mod dimensions will use the overworld config.
+		#Note that most of these config are disabled by default. They are provided so that which gems are in each dimension can be customized.
+		[world.18.ores]
+
+			[world.18.ores.ruby]
+
+				[world.18.ores.ruby.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 4
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 2
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 32
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.20000000298023224
+
+				[world.18.ores.ruby.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.ruby.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.carnelian]
+
+				[world.18.ores.carnelian.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.carnelian.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 2
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 25
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 110
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.carnelian.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.topaz]
+
+				[world.18.ores.topaz.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 4
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 2
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 40
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.20000000298023224
+
+				[world.18.ores.topaz.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.topaz.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.citrine]
+
+				[world.18.ores.citrine.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.citrine.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 2
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 25
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 110
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.citrine.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.heliodor]
+
+				[world.18.ores.heliodor.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 1
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 6
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 4
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 0
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.800000011920929
+
+				[world.18.ores.heliodor.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.heliodor.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 2
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 9
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 16
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 72
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.moldavite]
+
+				[world.18.ores.moldavite.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.moldavite.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 2
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 25
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 110
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.moldavite.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.peridot]
+
+				[world.18.ores.peridot.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 4
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 2
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 40
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.20000000298023224
+
+				[world.18.ores.peridot.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.peridot.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.turquoise]
+
+				[world.18.ores.turquoise.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 1
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 6
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 4
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 0
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.800000011920929
+
+				[world.18.ores.turquoise.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.turquoise.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 2
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 9
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 16
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 72
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.kyanite]
+
+				[world.18.ores.kyanite.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.kyanite.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.kyanite.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 2
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 9
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 16
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 72
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.sapphire]
+
+				[world.18.ores.sapphire.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 4
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 2
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 32
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.20000000298023224
+
+				[world.18.ores.sapphire.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.sapphire.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.iolite]
+
+				[world.18.ores.iolite.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 1
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 6
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 4
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 0
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.800000011920929
+
+				[world.18.ores.iolite.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 2
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 20
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 80
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.iolite.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.alexandrite]
+
+				[world.18.ores.alexandrite.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 1
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 6
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 4
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 0
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.800000011920929
+
+				[world.18.ores.alexandrite.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 2
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 20
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 80
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.alexandrite.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.ammolite]
+
+				[world.18.ores.ammolite.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.ammolite.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.ammolite.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 2
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 9
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 16
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 72
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.rose_quartz]
+
+				[world.18.ores.rose_quartz.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.rose_quartz.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.rose_quartz.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 2
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 9
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 16
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 72
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.black_diamond]
+
+				[world.18.ores.black_diamond.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.black_diamond.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 3
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 3
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 60
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.black_diamond.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.white_diamond]
+
+				[world.18.ores.white_diamond.overworld]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.white_diamond.the_nether]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 0
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 0
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 1
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 128
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+				[world.18.ores.white_diamond.the_end]
+					#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+					#Range: > 0
+					count = 3
+					#Size of veins
+					#Range: 0 ~ 1000
+					size = 8
+					#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+					#Range: > 0
+					rarity = 3
+					#Minimum Y-coordinate (base height) of veins
+					#Range: 0 ~ 255
+					minHeight = 0
+					#Maximum Y-coordinate (highest level) of veins
+					#Range: 0 ~ 255
+					maxHeight = 60
+					#The chance (out of 1) that the ore will not generate if exposed to air.
+					#Range: 0.0 ~ 1.0
+					discardChanceOnAirExposure = 0.0
+
+			[world.18.ores.silver]
+				#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
+				#Range: > 0
+				count = 2
+				#Size of veins
+				#Range: 0 ~ 1000
+				size = 7
+				#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
+				#Range: > 0
+				rarity = 1
+				#Minimum Y-coordinate (base height) of veins
+				#Range: 0 ~ 255
+				minHeight = 0
+				#Maximum Y-coordinate (highest level) of veins
+				#Range: 0 ~ 255
+				maxHeight = 36
+				#The chance (out of 1) that the ore will not generate if exposed to air.
+				#Range: 0.0 ~ 1.0
+				discardChanceOnAirExposure = 0.0
+
