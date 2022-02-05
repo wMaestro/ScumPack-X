@@ -1,0 +1,59 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398338%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -71
+}
+
+customization {
+  identifier = %id=398338%
+  width = 204
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=398306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504338%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -95
+}
+
+customization {
+  identifier = %id=398362%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=504330%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -95
+}
+

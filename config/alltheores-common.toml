@@ -72,10 +72,10 @@
 		aluminum_max_y = 120
 		#Aluminum deposit size(number of ores)
 		#Range: 1 ~ 64
-		aluminum_deposit_size = 7
+		aluminum_deposit_size = 5
 		#Aluminum deposit count(number of veins)
 		#Range: 1 ~ 64
-		aluminum_deposit_count = 20
+		aluminum_deposit_count = 7
 
 	[spawntuning.zinc]
 		#Zinc generates no lower than X blocks above world BOTTOM
@@ -86,10 +86,10 @@
 		zinc_max_y = 100
 		#Zinc deposit size(number of ores)
 		#Range: 1 ~ 64
-		zinc_deposit_size = 7
+		zinc_deposit_size = 3
 		#Zinc deposit count(number of veins)
 		#Range: 1 ~ 64
-		zinc_deposit_count = 20
+		zinc_deposit_count = 6
 
 	[spawntuning.lead]
 		#Lead generates no lower than X blocks above world BOTTOM
@@ -100,10 +100,10 @@
 		lead_max_y = 95
 		#Lead deposit size(number of ores)
 		#Range: 1 ~ 64
-		lead_deposit_size = 7
+		lead_deposit_size = 4
 		#Lead deposit count(number of veins)
 		#Range: 1 ~ 64
-		lead_deposit_count = 20
+		lead_deposit_count = 10
 
 	[spawntuning.nickel]
 		#Nickel generates no lower than X blocks above world BOTTOM
@@ -114,10 +114,10 @@
 		nickel_max_y = 85
 		#Nickel deposit size(number of ores)
 		#Range: 1 ~ 64
-		nickel_deposit_size = 7
+		nickel_deposit_size = 4
 		#Nickel deposit count(number of veins)
 		#Range: 1 ~ 64
-		nickel_deposit_count = 20
+		nickel_deposit_count = 6
 
 	[spawntuning.osmium]
 		#Osmium generates no lower than X blocks above world BOTTOM
@@ -131,7 +131,7 @@
 		osmium_deposit_size = 7
 		#Osmium deposit count(number of veins)
 		#Range: 1 ~ 64
-		osmium_deposit_count = 20
+		osmium_deposit_count = 12
 
 	[spawntuning.platinum]
 		#Platinum generates no lower than X blocks above world BOTTOM
@@ -145,7 +145,7 @@
 		platinum_deposit_size = 3
 		#Platinum deposit count(number of veins)
 		#Range: 1 ~ 64
-		platinum_deposit_count = 20
+		platinum_deposit_count = 5
 
 	[spawntuning.silver]
 		#Silver generates no lower than X blocks above world BOTTOM
@@ -159,7 +159,7 @@
 		silver_deposit_size = 5
 		#Silver deposit count(number of veins)
 		#Range: 1 ~ 64
-		silver_deposit_count = 20
+		silver_deposit_count = 10
 
 	[spawntuning.tin]
 		#Tin generates no lower than X blocks above world BOTTOM
@@ -173,7 +173,7 @@
 		tin_deposit_size = 7
 		#Tin deposit count(number of veins)
 		#Range: 1 ~ 64
-		tin_deposit_count = 20
+		tin_deposit_count = 10
 
 	[spawntuning.uranium]
 		#Uranium generates no lower than X blocks above world BOTTOM
@@ -187,5 +187,5 @@
 		uranium_deposit_size = 4
 		#Uranium deposit count(number of veins)
 		#Range: 1 ~ 64
-		uranium_deposit_count = 20
+		uranium_deposit_count = 10
 

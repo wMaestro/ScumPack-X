@@ -1,0 +1,43 @@
+
+#Upgradechip settings
+[upgradechips]
+	#Multiply the energycosts per chip
+	#Range: 0.2 ~ 8.0
+	multiplier_energycosts = 1.0
+	#Multiply the capacity per chip
+	#Range: 0.2 ~ 8.0
+	multiplier_capacity = 1.0
+	#Multiply the energyproduction per chip
+	#Range: 0.2 ~ 8.0
+	multiplier_energyproduction = 1.0
+	#Multiply the armor per chip
+	#Range: 0.2 ~ 8.0
+	multiplier_armor = 1.0
+	#Multiply the attackspeed per chip
+	#Range: 0.2 ~ 8.0
+	multiplier_attackspeed = 1.0
+	#Multiply the attack per chip
+	#Range: 0.2 ~ 8.0
+	multiplier_attack = 1.0
+	#Multiply the breakdownrate per chip
+	#Range: 0.2 ~ 8.0
+	multiplier_breakdownrate = 1.0
+	#Multiply the thoughness per chip
+	#Range: 0.2 ~ 8.0
+	multiplier_thoughness = 1.0
+	#Multiply the max capacity
+	#Range: 0.2 ~ 8.0
+	multiplier_max_capacity = 1.0
+	#Multiply the max attackspeed
+	#Range: 0.2 ~ 8.0
+	multiplier_max_attackspeed = 1.0
+	#Multiply the max Attack
+	#Range: 0.2 ~ 8.0
+	multiplier_max_attack = 1.0
+	#Multiply the max breakdownrate
+	#Range: 0.2 ~ 8.0
+	multiplier_max_breakdownrate = 1.0
+	#Multiply the max thoughness
+	#Range: 0.2 ~ 8.0
+	multiplier_max_thoughness = 1.0
+

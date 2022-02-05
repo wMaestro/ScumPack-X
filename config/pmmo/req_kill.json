@@ -1,6 +1,6 @@
 {
 	"minecraft:silverfish":
 	{
-		"combat": 10
+		"combat": 0
 	}
 }

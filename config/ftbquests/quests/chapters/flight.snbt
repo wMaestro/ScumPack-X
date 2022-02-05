@@ -1,0 +1,11 @@
+{
+	id: "2944148676C1474E"
+	group: "74AF662846ABDDB5"
+	order_index: 2
+	filename: "flight"
+	title: "Flight"
+	icon: "angelring:itemring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

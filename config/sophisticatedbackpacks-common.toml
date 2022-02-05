@@ -339,7 +339,7 @@
 					maxInputOutput = 20
 					#Energy in FE the battery upgrade will have per row of backpack slots
 					#Range: 500 ~ 50000
-					energyPerSlotRow = 100000
+					energyPerSlotRow = 50000
 
 				#Pump Upgrade Settings
 				[common.smeltingUpgrade.smokingUpgrade.blastingUpgrade.pumpUpgrade]

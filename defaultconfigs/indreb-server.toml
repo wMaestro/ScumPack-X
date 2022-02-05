@@ -1,0 +1,127 @@
+
+[tier_transfer]
+	#Range: > 1
+	basic_tier_transfer = 32
+	#Range: > 1
+	standard_tier_transfer = 128
+	#Range: > 1
+	advanced_tier_transfer = 512
+	#Range: > 1
+	super_tier_transfer = 2048
+	#Range: > 1
+	ultra_tier_transfer = 8192
+	#Range: > 1
+	creative_tier_transfer = 8192
+
+[battery_box]
+	#Range: > 1
+	wooden_battery_box_capacity = 40000
+	#Range: > 1
+	cesu_capacity = 300000
+	#Range: > 1
+	mfe_capacity = 4000000
+	#Range: > 1
+	mfsu_capacity = 40000000
+
+[generator]
+	#Range: > 1
+	generator_energy_capacity = 4000
+	#Range: > 1
+	generator_tick_generate = 10
+
+[geo_generator]
+	#Range: > 1
+	geo_generator_energy_capacity = 2400
+	#Range: > 1
+	geo_generator_lava_capacity = 8000
+	#Range: > 1
+	geo_generator_tick_generate = 20
+
+[semifluid_generator]
+	#Range: > 1
+	semifluid_generator_energy_capacity = 2400
+	#Range: > 1
+	semifluid_generator_fluid_capacity = 8000
+	#Range: > 1
+	semifluid_generator_tick_generate = 25
+
+[solar_generator]
+	#Range: > 1
+	solar_generator_energy_capacity = 1200
+	#Range: > 0
+	solar_generator_day_tick_generate = 1
+	#Range: > 0
+	solar_generator_night_tick_generate = 0
+	#Range: > 1
+	advanced_solar_generator_energy_capacity = 2400
+	#Range: > 0
+	advanced_solar_generator_day_tick_generate = 8
+	#Range: > 0
+	advanced_solar_generator_night_tick_generate = 1
+	#Range: > 1
+	hybrid_solar_generator_energy_capacity = 4800
+	#Range: > 0
+	hybrid_solar_generator_day_tick_generate = 64
+	#Range: > 0
+	hybrid_solar_generator_night_tick_generate = 8
+	#Range: > 1
+	quantum_solar_generator_energy_capacity = 9600
+	#Range: > 0
+	quantum_solar_generator_day_tick_generate = 512
+	#Range: > 0
+	quantum_solar_generator_night_tick_generate = 64
+
+[crystalline_generator]
+	#Range: > 1
+	crystalline_generator_energy_capacity = 9600
+	#Range: > 1
+	crystalline_generator_tick_generate = 30
+
+[electric_furnace]
+	#Range: > 1
+	electric_furnace_energy_capacity = 4000
+	#Range: > 1
+	electric_furnace_tick_usage = 12
+
+[basic_machines]
+	#Range: > 1
+	crusher_energy_capacity = 1200
+	#Range: > 1
+	extractor_energy_capacity = 1200
+	#Range: > 1
+	extruder_energy_capacity = 1200
+	#Range: > 1
+	compressor_energy_capacity = 1200
+	#Range: > 1
+	sawmill_energy_capacity = 1200
+	#Range: > 1
+	recycler_energy_capacity = 90
+	#Range: > 1
+	canning_machine_energy_capacity = 1200
+	#Range: > 1
+	fluid_enricher_energy_capacity = 1200
+
+[standard_machines]
+	#Range: > 1
+	alloy_smelter_energy_capacity = 2400
+	#Range: > 1
+	alloy_smelter_energy_heat_cost = 50
+
+[fermenter]
+	#Range: > 1
+	fermenter_energy_capacity = 2400
+	#Range: > 1
+	fermenter_biomass_capacity = 10000
+	#Range: > 1
+	fermenter_biogas_capacity = 2000
+	#Range: > 1
+	fermenter_heat_cost = 50
+	#Range: > 1
+	fermenter_tick_usage = 10
+
+[cell]
+	#Range: > 1
+	fluid_cell_capacity = 1000
+	#Range: > 1
+	foam_sprayer_capacity = 8000
+

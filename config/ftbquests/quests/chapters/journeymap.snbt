@@ -1,0 +1,11 @@
+{
+	id: "60CE319BAFC12E59"
+	group: "13736612CC935222"
+	order_index: 4
+	filename: "journeymap"
+	title: "JourneyMap"
+	icon: "minecraft:map"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

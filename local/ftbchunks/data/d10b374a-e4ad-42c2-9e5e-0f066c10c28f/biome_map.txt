@@ -1,0 +1,11 @@
+#646 biomesoplenty:dune_beach
+#674 minecraft:flower_forest
+#65C biomesoplenty:lavender_field
+#2D6 minecraft:meadow
+#4F1 minecraft:ocean
+#5F0 biomesoplenty:pasture
+#3DC minecraft:plains
+#4FE biomesoplenty:prairie
+#5FF minecraft:river
+#2CF biomesoplenty:shrubland
+#774 minecraft:sunflower_plains

@@ -1434,7 +1434,7 @@
 	"Totem Of Holding" = true
 	Pipes = true
 	"Matrix Enchanting" = true
-	Magnets = true
+	Magnets = false
 	Crate = true
 	Backpack = true
 

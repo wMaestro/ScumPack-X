@@ -1,0 +1,11 @@
+{
+	id: "7179D685457C1FDA"
+	group: "13736612CC935222"
+	order_index: 1
+	filename: "ingame_commands"
+	title: "In-game Commands"
+	icon: "alltheores:aluminum_gear"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

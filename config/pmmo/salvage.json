@@ -4,11 +4,11 @@
 		"minecraft:zombie_villager_spawn_egg":
 		{
 			"salvageMax": 1,
-			"baseChance": 25,
+			"baseChance": 10,
 			"chancePerLevel": 0,
-			"maxChance": 25,
+			"maxChance": 15,
 			"xpPerItem": 50,
-			"levelReq": 1
+			"levelReq": 4
 		}
 	},
 	"#minecraft:leaves":
@@ -4292,18 +4292,6 @@
 			"levelReq": 50
 		}
 	},
-	"minecraft:egg":
-	{
-		"minecraft:chicken_spawn_egg":
-		{
-			"salvageMax": 1,
-			"baseChance": 12.5,
-			"chancePerLevel": 0,
-			"maxChance": 12.5,
-			"xpPerItem": 3,
-			"levelReq": 10
-		}
-	},
 	"minecraft:elytra":
 	{
 		"minecraft:phantom_membrane":
@@ -4422,18 +4410,6 @@
 			"maxChance": 80,
 			"xpPerItem": 1.25,
 			"levelReq": 5
-		}
-	},
-	"minecraft:ghast_tear":
-	{
-		"minecraft:ghast_spawn_egg":
-		{
-			"salvageMax": 1,
-			"baseChance": 12.5,
-			"chancePerLevel": 0.1,
-			"maxChance": 25,
-			"xpPerItem": 10,
-			"levelReq": 25
 		}
 	},
 	"minecraft:glass_bottle":
@@ -5388,18 +5364,6 @@
 			"maxChance": 75,
 			"xpPerItem": 1,
 			"levelReq": 1
-		}
-	},
-	"minecraft:wither_rose":
-	{
-		"minecraft:wither_skeleton_spawn_egg":
-		{
-			"salvageMax": 3,
-			"baseChance": 12.5,
-			"chancePerLevel": 0.1,
-			"maxChance": 25,
-			"xpPerItem": 10,
-			"levelReq": 50
 		}
 	},
 	"minecraft:wooden_axe":

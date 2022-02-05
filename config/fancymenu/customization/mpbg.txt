@@ -1,0 +1,65 @@
+type = menu
+
+customization-meta {
+  identifier = com.sintinium.oauth.gui.profile.ProfileSelectionScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/61fc5cc24328e.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=363956%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  identifier = %id=547978%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  identifier = %id=501956%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  identifier = %id=455978%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  identifier = %id=363978%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+

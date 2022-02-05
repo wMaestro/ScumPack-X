@@ -1,0 +1,17 @@
+{
+	id: "2F20F2EC4C2224E6"
+	group: "13736612CC935222"
+	order_index: 2
+	filename: "guide_books"
+	title: "Guide Books"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "armorplus:guide_book"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

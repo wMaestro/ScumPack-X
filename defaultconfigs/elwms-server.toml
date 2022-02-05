@@ -1,0 +1,15 @@
+
+["World generation"]
+	#Define how many individuals a group can spawn with minimal.
+	#Range: 0 ~ 64
+	"Min group size" = 2
+	#Define how many individuals a group can spawn with maximal.
+	#Range: 0 ~ 64
+	"Max group size" = 3
+	#Define the spance propability, higher value = higher spawn chance.
+	#Set to 0 to disable spawn.
+	#Range: 0 ~ 100
+	Weight = 2
+	#List of biomes where they can spawn.
+	Biomes = ["PLAINS"]
+
