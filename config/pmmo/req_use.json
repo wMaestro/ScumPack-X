@@ -1,8 +1,36 @@
 {
-	"cyclic:prospector":
+	
+	"minecraft:blast_furnace":
 	{
-		"mining": 20,
-		"smithing": 10
+		"smithing": 5
+	},
+	"buildinggadgets:gadget_exchanging":
+	{
+		"building": 10
+	},
+	"buildinggadgets:gadget_copy_paste":
+	{
+		"building": 10
+	},
+	"buildinggadgets:gadget_building":
+	{
+		"building": 5
+	},
+	"mininggadgets:mininggadget":
+	{
+		"mining": 15
+	},
+	"mininggadgets:mininggadget_simple":
+	{
+		"mining": 15
+	},
+	"mininggadgets:mininggadget_fancy":
+	{
+		"mining": 15
+	},
+	"tiab:time_in_a_bottle":
+	{
+		"mining": 15, "crafting": 10, "building": 10
 	},
 	"prefab:item_start_house":
 	{
@@ -41,4 +69,7 @@
 	"prefab:item_villager_houses": { "building": 7 },
 	"prefab:item_advanced_warehouse": { "building": 20 },
 	"prefab:item_modern_buildings": { "building": 10 }
+	
+
+	
 }

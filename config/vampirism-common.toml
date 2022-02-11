@@ -22,7 +22,7 @@
 	[common-server.mobspawn]
 		#Vampire spawn chance/weight (e.g. Zombie: 100). Does not affect vampire forest.
 		#Range: 0 ~ 100000
-		vampireSpawnChance = 80
+		vampireSpawnChance = 60
 		#Advanced vampire spawn chance/weight (e.g. Zombie: 100). Does not affect vampire forest.
 		#Range: 0 ~ 100000
 		advancedVampireSpawnChance = 26
@@ -45,10 +45,10 @@
 		addVampireForestToOverworld = true
 		#Desired maximum distance in chunks between tents. Dont set hunterTentDistance <= hunterTentSeparation
 		#Range: 2 ~ 4096
-		hunterTentDistance = 10
+		hunterTentDistance = 12
 		#Desired minimum distance in chunks between tents. Dont set hunterTentDistance <= hunterTentSeparation
 		#Range: 1 ~ 4096
-		hunterTentSeparation = 4
+		hunterTentSeparation = 6
 		#Control hunter camp generation. If disabled you should set hunterSpawnChance to 75.
 		enableHunterTentGeneration = true
 		#Use the vanilla campfire block instead of Vampirism's much cooler one
@@ -62,13 +62,13 @@
 			villageDistance = 26
 			#Minimum distance between villages in chunks. Must be smaller than distance
 			#Range: 1 ~ 100
-			villageSeparation = 6
+			villageSeparation = 10
 			#Weight of the Totem Building inside the Village
 			#Range: > 0
 			totemWeight = 20
 			#Chance for a totem to have a faction after generation
 			#Range: 0.0 ~ 1.0
-			villageTotemFactionChance = 0.6
+			villageTotemFactionChance = 0.4
 			#Weight of the Hunter Trainer Building inside the Village
 			#Range: > 0
 			villageHunterTrainerWeight = 150

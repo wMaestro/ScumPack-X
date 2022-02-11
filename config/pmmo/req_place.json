@@ -1,8 +1,10 @@
 {
-	"wormhole:portal_frame":
+	"#forge:saplings":
 	{
-		"mining": 50,
-		"building": 10,
-		"agility": 30 
-	}
+		"woodcutting": 2
+	},
+	"#minecraft:saplings":
+	{
+		"woodcutting": 1
+	},
 }

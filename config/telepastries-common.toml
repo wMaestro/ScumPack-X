@@ -2,7 +2,7 @@
 #General settings
 [General]
 	#Defines if the pastry usage requires hunger, when set to true it ignores hunger [default: false]
-	ignoreHunger = false
+	ignoreHunger = true
 	#Disable placement of non-overworld cakes in dimensions that aren't the overworld (Meaning you can't go from the nether straight to the end) [default: true]
 	disableHopping = false
 	#Defines if the pastry teleportation point can be reset with a milk bucket [default: false]

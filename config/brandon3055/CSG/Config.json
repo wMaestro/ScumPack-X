@@ -1,0 +1,6 @@
+{
+  "inventory": {
+    "0:0": "{Count:1b,id:\"supplementaries:sack\",tag:{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"ftbquests:book\"},{Count:1b,Slot:1b,id:\"comforts:sleeping_bag_white\"},{Count:1b,Slot:2b,id:\"prefab:item_start_house\"},{Count:1b,Slot:4b,id:\"silentgear:blueprint_package\",tag:{silentlib.LootContainer:{LootTable:\"silentgear:starter_blueprints\"}}}],id:\"minecraft:shulker_box\"}}}"
+  },
+  "wipeBlacklist": []
+}

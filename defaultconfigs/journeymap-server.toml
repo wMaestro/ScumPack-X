@@ -7,5 +7,5 @@
 	#Players in this list have access to the Journeymap's Server Admin Panel
 	#Add users by name or UUID, Prefer UUID as it is more secure!
 	#Each value on a new line with the example format provided. (please delete the default values)
-	serverAdmins = ["0f9257ac-2242-4a91-92cf-b75b67ea8c00","611c7380-ec43-432d-b795-0619ea56bbff","96752e21-7f3f-4618-8076-ecb881c6ef76"]
+	serverAdmins = ["0f9257ac-2242-4a91-92cf-b75b67ea8c00", "611c7380-ec43-432d-b795-0619ea56bbff", "96752e21-7f3f-4618-8076-ecb881c6ef76"]
 

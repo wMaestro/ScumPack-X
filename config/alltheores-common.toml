@@ -72,10 +72,10 @@
 		aluminum_max_y = 120
 		#Aluminum deposit size(number of ores)
 		#Range: 1 ~ 64
-		aluminum_deposit_size = 5
+		aluminum_deposit_size = 8
 		#Aluminum deposit count(number of veins)
 		#Range: 1 ~ 64
-		aluminum_deposit_count = 7
+		aluminum_deposit_count = 8
 
 	[spawntuning.zinc]
 		#Zinc generates no lower than X blocks above world BOTTOM
@@ -86,10 +86,10 @@
 		zinc_max_y = 100
 		#Zinc deposit size(number of ores)
 		#Range: 1 ~ 64
-		zinc_deposit_size = 3
+		zinc_deposit_size = 8
 		#Zinc deposit count(number of veins)
 		#Range: 1 ~ 64
-		zinc_deposit_count = 6
+		zinc_deposit_count = 8
 
 	[spawntuning.lead]
 		#Lead generates no lower than X blocks above world BOTTOM
@@ -100,10 +100,10 @@
 		lead_max_y = 95
 		#Lead deposit size(number of ores)
 		#Range: 1 ~ 64
-		lead_deposit_size = 4
+		lead_deposit_size = 6
 		#Lead deposit count(number of veins)
 		#Range: 1 ~ 64
-		lead_deposit_count = 10
+		lead_deposit_count = 6
 
 	[spawntuning.nickel]
 		#Nickel generates no lower than X blocks above world BOTTOM
@@ -128,10 +128,10 @@
 		osmium_max_y = 100
 		#Osmium deposit size(number of ores)
 		#Range: 1 ~ 64
-		osmium_deposit_size = 7
+		osmium_deposit_size = 6
 		#Osmium deposit count(number of veins)
 		#Range: 1 ~ 64
-		osmium_deposit_count = 12
+		osmium_deposit_count = 6
 
 	[spawntuning.platinum]
 		#Platinum generates no lower than X blocks above world BOTTOM
@@ -145,7 +145,7 @@
 		platinum_deposit_size = 3
 		#Platinum deposit count(number of veins)
 		#Range: 1 ~ 64
-		platinum_deposit_count = 5
+		platinum_deposit_count = 6
 
 	[spawntuning.silver]
 		#Silver generates no lower than X blocks above world BOTTOM
@@ -156,10 +156,10 @@
 		silver_max_y = 120
 		#Silver deposit size(number of ores)
 		#Range: 1 ~ 64
-		silver_deposit_size = 5
+		silver_deposit_size = 6
 		#Silver deposit count(number of veins)
 		#Range: 1 ~ 64
-		silver_deposit_count = 10
+		silver_deposit_count = 8
 
 	[spawntuning.tin]
 		#Tin generates no lower than X blocks above world BOTTOM
@@ -170,7 +170,7 @@
 		tin_max_y = 180
 		#Tin deposit size(number of ores)
 		#Range: 1 ~ 64
-		tin_deposit_size = 7
+		tin_deposit_size = 8
 		#Tin deposit count(number of veins)
 		#Range: 1 ~ 64
 		tin_deposit_count = 10
@@ -184,8 +184,8 @@
 		uranium_max_y = 70
 		#Uranium deposit size(number of ores)
 		#Range: 1 ~ 64
-		uranium_deposit_size = 4
+		uranium_deposit_size = 6
 		#Uranium deposit count(number of veins)
 		#Range: 1 ~ 64
-		uranium_deposit_count = 10
+		uranium_deposit_count = 8
 

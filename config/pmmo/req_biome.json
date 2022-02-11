@@ -1,21 +1,21 @@
 {
 	"minecraft:cold_ocean":
 	{
-		"swimming": 5,
-		"endurance": 5
+		"swimming": 25,
+		"endurance": 15
 	},
 	"minecraft:deep_frozen_ocean":
 	{
-		"swimming": 5,
-		"endurance": 5
+		"swimming": 35,
+		"endurance": 25
 	},
 	"minecraft:deep_ocean":
 	{
-		"swimming": 5
+		"swimming": 15
 	},
 	"minecraft:frozen_ocean":
 	{
-		"swimming": 5,
-		"endurance": 5
+		"swimming": 35,
+		"endurance": 15
 	}
 }

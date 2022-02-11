@@ -22,7 +22,7 @@
 	#----------------------------------------------------------------------------------------------------+
 	#Whether falling blocks like sand or gravel should drop down after being placed during dungeon generation.
 	#
-	tick_falling_blocks = true
+	tick_falling_blocks = false
 
 ["Dungeon Placement"]
 	#----------------------------------------------------------------------------------------------------+
@@ -31,7 +31,7 @@
 	#Has to be higher than the separation!
 	#
 	#Range: 9 ~ 8192
-	spacing = 24
+	spacing = 36
 	#----------------------------------------------------------------------------------------------------+
 	#The minimum distance between the dungeons in chunks. Has to be lower than the spacing!
 	#The closer the separation is to the spacing, the more grid-aligned and predictable the dungeon placement will be.
@@ -39,7 +39,7 @@
 	#Has to be lower than the spacing!
 	#
 	#Range: 8 ~ 8191
-	separation = 12
+	separation = 18
 
 	["Dungeon Placement".Biomes]
 		#----------------------------------------------------------------------------------------------------+

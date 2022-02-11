@@ -1,17 +1,14 @@
 {
+	"minecraft:overworld":
+	{
+		"excavation": 1
+	},
 	"javd:void":
 	{
-		"mining": 10
+		"magic": 20
 	},
 	"jamd:mining":
 	{
-		"mining": 20
-	}
-"minecraft:the_end":
-	{
-		"mining": 20,
-"crafting": 20,
-"building": 20,
-"combat": 20
-	}
+		"mining": 40
+	},
 }
