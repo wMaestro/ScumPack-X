@@ -1,0 +1,439 @@
+{
+	id: "441B8C2ABEF91397"
+	group: ""
+	order_index: 1
+	filename: "welcome_stuff_to_start"
+	title: "WELCOME: Stuff To Start"
+	disable_toast: true
+	subtitle: ["Basically, Some Tips To Start You Off In Modded Minecraft"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "JEI: Just Enough Items"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "jei:textures/gui/icons/info.png"
+				}
+			}
+			disable_toast: true
+			x: 0.0d
+			y: -2.0d
+			subtitle: "How To Find The Crafting Recipes"
+			description: [
+				"Many modern modpacks use a mod that has \"Many Items\" in its name, and this modpack is no exception. \"Just Enough Items\" or JEI is the overlay or right-hand sidebar you see inside your inventory screen!"
+				""
+				"By default, JEI should be set up such that hovering over an item allows you to check both that item's crafting recipe, if it has one, and places where it is \"used\" in a recipe itself, often referred to simply as \"recipes\" and \"uses.\" These functions are also conveniently bound to the R and U keys - but only while inside an inventory."
+				""
+				"Note that because of issues in mods themselves, not JEI, some GUIs do not work with JEI. Report these GUIs to us via CurseForge and Github and we can take those as issues back to those individual mod authors. Thanks!"
+			]
+			size: 2.0d
+			optional: true
+			id: "0590D24191D8AB24"
+			tasks: [{
+				id: "27CF75FE38C4A9CB"
+				type: "checkmark"
+				title: "Yes, Ok, I Know What JEI Is"
+				disable_toast: true
+			}]
+			rewards: [
+				{
+					id: "21961D075ACAFD41"
+					type: "pmmo:levelreward"
+					title: "+1 Crafting Knowledge"
+					team_reward: false
+					skill: "crafting"
+					amount: 1.0d
+				}
+				{
+					id: "251B014C9B243FE1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Find This Wrench Elsewhere..."
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "jei:textures/gui/icons/config_button.png"
+				}
+			}
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Hopefully Something You Didn't Know"
+			description: [
+				"JEI can be configured to your liking to be powerful or less intrusive, depending on your preferred experience. Go to the wrench in the bottom-right corner of JEI if you'd like to configure it, then you can go to \"jei-client,\" and then to \"Search.\" There you'll find settings for the different search prefixes you can put in the JEI search to get different results."
+				""
+				"@modname - for ex. \"@blueskies\" to search every block and item added by the Blue Skies mod. Make sure you spell names correctly!"
+				""
+				"#tooltip - for ex. \"#magic\" to search any block or item, usually item, with the word magic somewhere in its tooltip."
+			]
+			dependencies: ["0590D24191D8AB24"]
+			dependency_requirement: "one_completed"
+			optional: true
+			min_width: 256
+			id: "487B63A3DC8E4A0E"
+			tasks: [{
+				id: "481A314839F9F042"
+				type: "checkmark"
+				title: "JEI Info 101"
+			}]
+			rewards: [
+				{
+					id: "29A52B25F6BD20A7"
+					type: "pmmo:levelreward"
+					title: "+1 Crafting Knowledge"
+					team_reward: false
+					skill: "crafting"
+					amount: 1.0d
+				}
+				{
+					id: "4AD4C2C3AE36BB41"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "More In-Depth About That One Thing"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "jei:textures/gui/icons/config_button_cheat.png"
+				}
+			}
+			disable_toast: true
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Probably Something You Didn't Know"
+			description: [
+				"^color - for ex. \"^purple\" to search any block or item tagged in JEI as being (or often, containing) the color purple. Should work for all 16 Minecraft colors, at least. Plenty others supported too."
+				""
+				"$tag - for ex. \"$gem\" to search every block or item, usually item, tagged by a special backend mod as being a gem. Usually this is done directly by or with Forge, the modloader. Too many tags exist to list them all, try this one out!"
+				""
+				"%creativetab - for ex. \"%redstone\" for every block or item in the Redstone tab of the Creative inventory menu. This one's a bit niche, but can come in handy if you swap to a single-player world in Creative to first see what tabs you may want to use this with on a server."
+			]
+			dependencies: ["487B63A3DC8E4A0E"]
+			optional: true
+			id: "7340C964692AFA98"
+			tasks: [{
+				id: "76350AB9AD769C8A"
+				type: "checkmark"
+				title: "JEI Info 201"
+			}]
+			rewards: [
+				{
+					id: "1485E51504EB4118"
+					type: "pmmo:levelreward"
+					title: "+1 Crafting Knowledge"
+					team_reward: false
+					skill: "crafting"
+					amount: 1.0d
+				}
+				{
+					id: "3140E7414FC0C29F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "FTB: Teams + Chunks"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			disable_toast: true
+			x: -3.0d
+			y: 2.0d
+			subtitle: "How To Play With Friends"
+			size: 2.0d
+			optional: true
+			id: "5D4539B228AE5503"
+			tasks: [{
+				id: "4D35232808182117"
+				type: "observation"
+				title: "Step 1: Find A Friend"
+				icon: "minecraft:player_head"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:player"
+			}]
+			rewards: [
+				{
+					id: "32A8ACE677B990D6"
+					type: "pmmo:levelreward"
+					title: "+1 Survival Knowledge"
+					team_reward: false
+					skill: "endurance"
+					amount: 1.0d
+				}
+				{
+					id: "35CDD1DE4D4F700F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "JourneyMap"
+			icon: "minecraft:filled_map"
+			disable_toast: true
+			x: 3.0d
+			y: 2.0d
+			subtitle: "How To Know Where To Go"
+			size: 2.0d
+			optional: true
+			id: "7C0651074CD5595A"
+			tasks: [{
+				id: "72C3F7C14FF0C7A3"
+				type: "checkmark"
+				title: "Press The J Key"
+			}]
+			rewards: [
+				{
+					id: "23E7FFAF2E766633"
+					type: "pmmo:levelreward"
+					title: "+1 Exploration Knowledge"
+					skill: "agility"
+					amount: 1.0d
+				}
+				{
+					id: "6D5B8DF49E835F18"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "What about other keybinds?"
+			icon: "supplementaries:key"
+			disable_toast: true
+			x: -3.0d
+			y: -2.0d
+			subtitle: "Not Enough Too Many?"
+			description: [
+				"The default keybinds that come with this modpack can be easily configured by going to [ Main Menu -> Options -> Controls -> Key Binds ] but we hope you find them, generally, easier to use than in most modpacks, right from the start."
+				""
+				"A huge pain point of ours as players was taking 10 minutes to load into certain packs and then another 10 minutes figuring out what things we did and didn't want conflicting in our keybinds for playing."
+				""
+				"You'll notice roughly 40% of them aren't bound, which we found was preferable to having far too many conflicting ones bound. If conflicts exist, please know it's because certain keybinds, for example with certain tools, cannot be used at the same time, and can overlap safely."
+			]
+			optional: true
+			id: "76781AF04576BFBE"
+			tasks: [{
+				id: "6A1E130C04914C15"
+				type: "checkmark"
+				title: "TY 4 Keybinds"
+			}]
+			rewards: [{
+				id: "4EF1A62E3B630057"
+				type: "loot"
+				title: "Funifact Random Reward"
+				icon: "expandedstorage:lavender_mini_present"
+				table_id: 7682813118593139901L
+			}]
+		}
+		{
+			title: "What about the MATH?!"
+			icon: "minecraft:writable_book"
+			disable_toast: true
+			x: 3.0d
+			y: -2.0d
+			subtitle: "An In-Game Place To Keep To-Dos"
+			description: ["By default, pressing N will bring up a client-side Notes mod, which you can use at your convenience for anything you'd normally keep tabs on out-of-game, like a checklist or a list of coordinates."]
+			optional: true
+			id: "17A87CA665B49247"
+			tasks: [{
+				id: "48BC7B49EFAE3EED"
+				type: "checkmark"
+				title: "TY 4 Notes"
+			}]
+			rewards: [{
+				id: "28A8D449E221912F"
+				type: "loot"
+				title: "Funifact Random Reward"
+				icon: "expandedstorage:red_mini_present"
+				table_id: 7682813118593139901L
+			}]
+		}
+		{
+			title: "Torchmaster"
+			icon: "torchmaster:megatorch"
+			x: 0.0d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "How To Control Mob Spawns"
+			size: 2.0d
+			id: "653906D218BAC759"
+			tasks: [
+				{
+					id: "5ED242AACFB2F779"
+					type: "item"
+					item: "minecraft:torch"
+					count: 3L
+				}
+				{
+					id: "260B8A051F2A5695"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 2L
+				}
+				{
+					id: "082D32BED2C8F8F8"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 18L
+				}
+				{
+					id: "00793DD625E9B184"
+					type: "item"
+					title: "Any #minecraft:logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "17859C389FB9BD0A"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+		}
+		{
+			title: "The Jungler's Lantern"
+			icon: "torchmaster:feral_flare_lantern"
+			x: -1.5d
+			y: 5.5d
+			subtitle: "Feral Flare For You Non-League Players"
+			dependencies: [
+				"653906D218BAC759"
+				"03D598A96F7C9BF8"
+			]
+			dependency_requirement: "one_completed"
+			id: "0AC6E7BA4D4F2618"
+			tasks: [{
+				id: "2FB6FEF365314BA1"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+			rewards: [
+				{
+					id: "6C9361F55725BDE4"
+					type: "item"
+					item: "minecraft:ice"
+					count: 4
+				}
+				{
+					id: "425E75697A92971B"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+		}
+		{
+			title: "\"Passive\" Dread"
+			icon: "torchmaster:dreadlamp"
+			x: 1.5d
+			y: 5.5d
+			subtitle: "The Dread Lamp, Not Actually Dreadful"
+			dependencies: [
+				"653906D218BAC759"
+				"03D598A96F7C9BF8"
+			]
+			dependency_requirement: "one_completed"
+			id: "6618E16B4FA40A4F"
+			tasks: [
+				{
+					id: "08F612E9B100D482"
+					type: "item"
+					item: "minecraft:glowstone"
+				}
+				{
+					id: "250178B96BD5B8D5"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 5L
+				}
+				{
+					id: "0932699758CF62E3"
+					type: "item"
+					title: "Any #forge:glass_panes"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:glass_panes"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "45EC3BB93007ECB4"
+					type: "item"
+					item: "minecraft:black_dye"
+				}
+			]
+			rewards: [{
+				id: "4BA56A5B49FBB941"
+				type: "item"
+				item: "torchmaster:dreadlamp"
+			}]
+		}
+		{
+			title: "Essential /Commands"
+			icon: "minecraft:command_block"
+			disable_toast: true
+			x: 0.0d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "They Make Players Happy"
+			size: 2.0d
+			id: "1EFB06C2856D484B"
+			tasks: [{
+				id: "78F2660837DFDF0C"
+				type: "checkmark"
+				title: "/Commands That Make The World Go Round"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["5D4539B228AE5503"]
+			optional: true
+			id: "4B337E6AD3BE2B9D"
+			tasks: [{
+				id: "19E40B313C38CA16"
+				type: "checkmark"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["7C0651074CD5595A"]
+			optional: true
+			id: "3EE100BB2A236995"
+			tasks: [{
+				id: "61E95767C6270606"
+				type: "checkmark"
+			}]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	id: "3321DF243096504F"
+	order_index: 2
+	title: "CroptopiaFood"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "croptopia:toast_sandwich" }
+		{ item: "croptopia:shepherds_pie" }
+		{ item: "croptopia:ratatouille" }
+		{ item: "croptopia:rhubarb_crisp" }
+		{ item: "croptopia:roasted_asparagus" }
+		{ item: "croptopia:roasted_radishes" }
+		{ item: "croptopia:roasted_squash" }
+		{ item: "croptopia:roasted_turnips" }
+		{ item: "croptopia:stir_fry" }
+		{ item: "croptopia:stuffed_artichoke" }
+		{ item: "croptopia:lemon_coconut_bar" }
+		{ item: "croptopia:grilled_eggplant" }
+		{ item: "croptopia:fruit_cake" }
+		{ item: "croptopia:eggplant_parmesan" }
+		{ item: "croptopia:cooked_bacon" }
+		{ item: "croptopia:cheesy_asparagus" }
+		{ item: "croptopia:beef_stir_fry" }
+		{ item: "croptopia:avocado_toast" }
+		{ item: "croptopia:ajvar_toast" }
+		{ item: "croptopia:treacle_tart" }
+		{ item: "croptopia:figgy_pudding" }
+		{ item: "croptopia:scones" }
+		{ item: "croptopia:sticky_toffee_pudding" }
+		{ item: "croptopia:trifle" }
+		{ item: "croptopia:cornish_pasty" }
+		{ item: "croptopia:fish_and_chips" }
+		{ item: "croptopia:beef_wellington" }
+	]
+}

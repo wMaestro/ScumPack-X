@@ -1,0 +1,18 @@
+{
+	id: "2A7BDE3A65044909"
+	group: "74AF662846ABDDB5"
+	order_index: 0
+	filename: "basic_tools"
+	title: "Tools"
+	icon: {
+		id: "enigmaticlegacy:etherium_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,458 @@
+{
+	id: "1AD929FBC6E29E4E"
+	group: ""
+	order_index: 0
+	filename: "scumpack__a_pack_with_a_mission"
+	title: "INTRO: Stuff To Know"
+	disable_toast: true
+	subtitle: ["Basically, Some Notes About This Modpack In Particular"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Begin Here!"
+			icon: "biomesoplenty:origin_grass_block"
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "You Don't Have To Read It But I'm Not Above Guilt-tripping You Over It"
+			description: [
+				"Thanks for taking this step into a new world of modded Minecraft with us! ScumPack X is, first and foremost, a modpack made by people frustrated with other modpacks, with their lack of polish or with half-finished quest books. We intend to continue supporting this modpack (or at least a version of it) as long as most of the mods stay up-to-date and as long as those of us making it continue playing Minecraft. We hope you enjoy this exhaustive quest system to help you on your way - don't worry, this is the most reading you'll have to do!"
+				""
+				"Throughout ScumPack's \"quest system,\" provided by the mod FTB Quests, you can click checkmarks, as above, or complete actual quests of varying difficulty for rewards. There may also be \"quests\" in here to help you learn the basics of many mods. Try them all!"
+				" "
+				"ScumPack, this modpack, started as a custom pack for the Unofficial MafiaScum.net Minecraft community, but we're proud of the amount of work we've put into it, and can't wait to see who else will be interested!"
+				" "
+				"-Enjoy!"
+				"     aerialspring, ArchReplicator, Maestro"
+			]
+			hide: false
+			size: 4.0d
+			optional: true
+			min_width: 256
+			id: "14F3C65EFE0B7C08"
+			tasks: [{
+				id: "4AD23B880ED25DBE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "69A4E0122E296255"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+		}
+		{
+			title: "Exploration"
+			icon: "blue_skies:multi_portal_item"
+			disable_toast: true
+			x: 0.0d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "To Infinity And Beyond!"
+			description: ["Click the checkmark above to unlock the Exploration chapter in the sidebar of the main FTB Quests screen. No need to start this until you're ready!"]
+			size: 2.0d
+			id: "6F3BDD9ADBDFCC01"
+			tasks: [{
+				id: "30391EC539F9334C"
+				type: "checkmark"
+				title: "Ready to go into so many portals"
+			}]
+			rewards: [
+				{
+					id: "1FC8B82451AA2F8B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6167ED211A888CFB"
+					type: "item"
+					title: "I found an old ruin today, and an Explorer's Compass which crumbled into dust and cobwebs..."
+					icon: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+					item: "minecraft:cobweb"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Tools + Armor"
+			icon: {
+				id: "silentgear:mod_kit"
+				Count: 1b
+				tag: { }
+			}
+			disable_toast: true
+			x: -4.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Duct Tape + DW20... I Mean WD40"
+			description: ["Click the checkmark above to unlock the Tools + Armor chapter in the sidebar of the main FTB Quests screen. No need to start this until you're ready!"]
+			size: 2.0d
+			id: "6C7B7B07D0D59DDB"
+			tasks: [{
+				id: "3706A9F60CA77B7F"
+				type: "checkmark"
+				title: "Ready to put some things together"
+			}]
+			rewards: [
+				{
+					id: "1E106D8092EF0554"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3297310714CA6179"
+					type: "item"
+					title: "An odd material given to me mistakenly, by a Villager who thought it was an Emerald..."
+					icon: {
+						id: "silentgear:custom_gem"
+						Count: 1b
+						tag: {
+							Material: "dimerald"
+						}
+					}
+					item: "silentgear:bort"
+				}
+			]
+		}
+		{
+			title: "Magic"
+			icon: "mna:debug_wand"
+			disable_toast: true
+			x: -4.0d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "Abra Kadabra Alaka-Trademark!"
+			description: ["Click the checkmark above to unlock the Magic chapter in the sidebar of the main FTB Quests screen. No need to start this until you're ready!"]
+			size: 2.0d
+			id: "1798BC93AFC0D40E"
+			tasks: [{
+				id: "3E48133449949B31"
+				type: "checkmark"
+				title: "Ready to take reality itself apart"
+			}]
+			rewards: [
+				{
+					id: "4D51908DA7F9391C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3A3CFF85BE834A99"
+					type: "pmmo:levelreward"
+					title: "+1 Magic Knowledge"
+					skill: "magic"
+					amount: 1.0d
+				}
+			]
+		}
+		{
+			title: "Farming"
+			icon: "minecraft:spawner"
+			disable_toast: true
+			x: 4.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Crops, Hops, And Monster Drops"
+			description: ["Click the checkmark above to unlock the Farming chapter in the sidebar of the main FTB Quests screen. No need to start this until you're ready!"]
+			size: 2.0d
+			id: "3B929F905409F05D"
+			tasks: [{
+				id: "6F66FDE56A0CB0C9"
+				type: "checkmark"
+				title: "Ready to farm crops and mobs"
+			}]
+			rewards: [
+				{
+					id: "5E0E68F10AFD11BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "705C6B89AE62C317"
+					type: "item"
+					title: "Given to me by a Villager with a wart, apparently it can magically change a spawner...?"
+					item: "minecraft:fermented_spider_eye"
+				}
+			]
+		}
+		{
+			title: "Technology"
+			icon: {
+				id: "indreb:mfsu"
+				Count: 1b
+				tag: { }
+			}
+			disable_toast: true
+			x: 4.0d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "(Nearly) UN-LI-MI-TED POWAH!"
+			description: ["Click the checkmark above to unlock the Tech chapter in the sidebar of the main FTB Quests screen. No need to start this until you're ready!"]
+			size: 2.0d
+			id: "1FF1AD8713864F49"
+			tasks: [{
+				id: "681492B69304EF7F"
+				type: "checkmark"
+				title: "Ready to power some miracle cubes"
+			}]
+			rewards: [
+				{
+					id: "4FF7F42CF16FA106"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "44C49133E7841E93"
+					type: "item"
+					title: "The beginnings of a basic machine, perhaps? Found rusted in a riverbed..."
+					item: "create:brass_sheet"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Storage"
+			icon: "storagedrawers:compacting_drawers_3"
+			disable_toast: true
+			x: 0.0d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "Giving It More RAM Won't Help..."
+			description: ["Click the checkmark above to unlock the Storage chapter in the sidebar of the main FTB Quests screen. No need to start this until you're ready!"]
+			size: 2.0d
+			id: "08AEDB213A2A8238"
+			tasks: [{
+				id: "60E614A1ED1FEB7A"
+				type: "checkmark"
+				title: "Ready to box up everything you own into a flash drive, or something"
+			}]
+			rewards: [
+				{
+					id: "2EAEC925F408E3BD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "394F1D9567C0991E"
+					type: "loot"
+					title: "What's this? A piece of rubble from a tiny meteor, exploded overhead..."
+					icon: "ae2:sky_dust"
+					table_id: 2688232603956806261L
+				}
+			]
+		}
+		{
+			title: "Creeper Overhaul"
+			icon: "minecraft:creeper_head"
+			disable_toast: true
+			x: -1.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "Some Are Kinda Cute!"
+			id: "4C4ADCABFB089666"
+			tasks: [
+				{
+					id: "42D974C1EE42306B"
+					type: "checkmark"
+					title: "I Will Watch Out For New Boom Boiz"
+				}
+				{
+					id: "1DA7873210F042D8"
+					type: "item"
+					item: "minecraft:sand"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "4E7F689DB1D8B9BB"
+				type: "item"
+				title: "...sssSSSSSsss..."
+				icon: "minecraft:tnt"
+				item: "minecraft:gunpowder"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Project MMO"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pmmo:textures/gui/star.png"
+				}
+			}
+			disable_toast: true
+			x: -3.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Massive Multiplayer Online"
+			id: "60F993AB6917BE0A"
+			tasks: [
+				{
+					id: "3E1DADDD1CA6B5BF"
+					type: "pmmo:skill"
+					title: "Reach Level 3 Woodcutting"
+					icon: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					skill: "woodcutting"
+					requiredLevel: 3.0d
+				}
+				{
+					id: "04FC5EF7B63282F1"
+					type: "pmmo:skill"
+					title: "Reach Level 3 Mining"
+					icon: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					skill: "mining"
+					requiredLevel: 3.0d
+				}
+				{
+					id: "7B3E6E5681663CB8"
+					type: "pmmo:skill"
+					title: "Reach Level 3 Farming"
+					icon: {
+						id: "minecraft:stone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					skill: "farming"
+					requiredLevel: 3.0d
+				}
+			]
+			rewards: [{
+				id: "0F592B14F5F0BF4A"
+				type: "item"
+				title: "From my own humble beginnings comes great progress..."
+				item: "prefab:item_warehouse"
+			}]
+		}
+		{
+			title: "Matrix Enchanting"
+			disable_toast: true
+			x: -1.5d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "Like Tetris, But Magic"
+			id: "171A143F1F0A2F44"
+			tasks: [{
+				id: "364A7FD81F3B2E46"
+				type: "item"
+				title: "Step 1: Find That One Table"
+				item: "minecraft:enchanting_table"
+				only_from_crafting: false
+			}]
+			rewards: [
+				{
+					id: "0C18732D4714A5F6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6CB4A8A7CD7A582D"
+					type: "pmmo:levelreward"
+					title: "+1 Magic Knowledge"
+					skill: "magic"
+					amount: 1.0d
+				}
+			]
+		}
+		{
+			title: "Regrowth, Not The Modpack"
+			icon: "minecraft:bell"
+			x: 3.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Intelligent Villagers"
+			id: "199502AC9ED33758"
+			tasks: [{
+				id: "6E3A23E5F0F6A306"
+				type: "structure"
+				title: "Step 1: Find A Village"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/villager/villager.png"
+					}
+				}
+				structure: "minecraft:village"
+			}]
+			rewards: [{
+				id: "53DDC53BCCD18540"
+				type: "item"
+				title: "Perhaps with these I can help the locals expand..."
+				item: {
+					id: "prefab:item_villager_houses"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "The Akashic Tome"
+			x: 1.5d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "Everybody's Favorite Book For Books"
+			id: "195ECBB1A6B3D90B"
+			rewards: [{
+				id: "05C808EA4129478A"
+				type: "item"
+				item: "minecraft:writable_book"
+			}]
+		}
+		{
+			title: "Easy Villagers + Piglins"
+			x: 1.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "Unintelligent Villagers?"
+			id: "34D2CE9AE6E69B0F"
+			tasks: [
+				{
+					id: "3AB46627BB3A36B6"
+					type: "item"
+					item: "easy_villagers:villager"
+				}
+				{
+					id: "11DC58755613B016"
+					type: "item"
+					item: "easy_piglins:piglin"
+				}
+			]
+			rewards: [
+				{
+					id: "2C7CDC2E6CEE30F7"
+					type: "item"
+					item: "easy_villagers:trader"
+				}
+				{
+					id: "0CE67F9CBDCD8E8C"
+					type: "item"
+					item: "easy_piglins:barterer"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "629FB634C8EE8C8C", title: "EXPLORATION: See The Stuff" }
+		{ id: "74AF662846ABDDB5", title: "TOOLS + ARMOR: Do The Stuff" }
+		{ id: "0BBC8AC24A005C60", title: "FARMING: Get The Stuff" }
+		{ id: "5DA68E6DC807CCF9", title: "STORAGE: Hoard The Stuff" }
+		{ id: "4F435787238DA27D", title: "TECH: Powered Stuff" }
+		{ id: "2319088428E6E3B5", title: "MAGIC: Mysterious Stuff" }
+		{ id: "6E67E63EE4B09E89", title: "CHALLENGES: The \"Hard\" Stuff" }
+		{ id: "7E550906A7A455DB", title: "?????: The Secret Stuff" }
+	]
+}

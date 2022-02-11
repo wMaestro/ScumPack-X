@@ -1,0 +1,12 @@
+{
+	id: "254E854F78780275"
+	order_index: 0
+	title: "Meteorite Loot"
+	loot_size: 1
+	rewards: [
+		{ item: "ae2:calculation_processor_press" }
+		{ item: "ae2:engineering_processor_press" }
+		{ item: "ae2:logic_processor_press" }
+		{ item: "ae2:silicon_press" }
+	]
+}

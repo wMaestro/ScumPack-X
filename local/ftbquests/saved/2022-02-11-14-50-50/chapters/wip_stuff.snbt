@@ -1,0 +1,11 @@
+{
+	id: "618DE165CB8AA702"
+	group: "7E550906A7A455DB"
+	order_index: 1
+	filename: "wip_stuff"
+	title: "WIP Stuff"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
