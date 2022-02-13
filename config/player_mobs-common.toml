@@ -27,10 +27,10 @@
 	#Higher values makes spawning more probable.
 	#Default is similar to zombies
 	#Range: > 0
-	"Spawn Weight" = 100
+	"Spawn Weight" = 50
 	#The minimum size of the group of mobs that will spawn.
 	#Range: > 1
-	"Min Spawn Size" = 4
+	"Min Spawn Size" = 1
 	#The maximum size of the group of mobs that will spawn.
 	#Range: > 1
 	"Max Spawn Size" = 4
@@ -67,7 +67,7 @@
 	#Range: > 0
 	"Reload Interval" = 60
 	#A list of names that the player mobs can have.
-	"Mob Names" = ["Gory_Moon", "Darkosto", "016Nojr", "BluSunrize", "Buuz135", "Darkere", "Darkhax", "Drullkus", "Direwolf20", "Ellpeck", "Emberwalker", "Gigabit101", "Kamefrede", "KnightMiner_", "Lat", "LexManos", "Mrbysco", "P3pp3rF1y", "Ray", "Ridanis", "SOTMead", "ShyNieke", "SkySom", "Soaryn", "TamasHenning", "ValkyrieofNight", "XCompWiz", "cpw11", "darkphan", "direwolf20", "dmodoomsirius", "dmodoomsirius", "malte0811", "nekosune", "neptunepink", "vadis365", "wyld", "paulsoaresjr", "Mhykol", "Vswe", "TurkeyDev", "Gen_Deathrow", "Sevadus", "jeb_", "Dinnerbone", "Grumm", "fry_"]
+	"Mob Names" = ["Gory_Moon", "Darkosto", "016Nojr", "BluSunrize", "Buuz135", "Darkere", "Darkhax", "Drullkus", "Direwolf20", "Ellpeck", "Emberwalker", "Gigabit101", "Kamefrede", "KnightMiner_", "Lat", "LexManos", "Mrbysco", "P3pp3rF1y", "Ray", "Ridanis", "SOTMead", "ShyNieke", "SkySom", "Soaryn", "TamasHenning", "ValkyrieofNight", "XCompWiz", "cpw11", "darkphan", "direwolf20", "dmodoomsirius", "dmodoomsirius", "malte0811", "nekosune", "neptunepink", "vadis365", "wyld", "paulsoaresjr", "Mhykol", "Vswe", "TurkeyDev", "Gen_Deathrow", "Sevadus", "jeb_", "Dinnerbone", "Grumm", "fry_", "aerialspring", "wmaestro", "archreplicator"]
 	#If the names in the whitelist should be used for the player mobs.
 	"Use Whitelist" = true
 

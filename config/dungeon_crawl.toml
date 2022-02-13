@@ -1,4 +1,3 @@
-
 ["Miscellaneous Settings"]
 	#----------------------------------------------------------------------------------------------------+
 	#Enables the dungeon crawl developer tools. Do not use this for normal gameplay.
@@ -31,7 +30,7 @@
 	#Has to be higher than the separation!
 	#
 	#Range: 9 ~ 8192
-	spacing = 36
+	spacing = 96
 	#----------------------------------------------------------------------------------------------------+
 	#The minimum distance between the dungeons in chunks. Has to be lower than the spacing!
 	#The closer the separation is to the spacing, the more grid-aligned and predictable the dungeon placement will be.
@@ -39,7 +38,7 @@
 	#Has to be lower than the spacing!
 	#
 	#Range: 8 ~ 8191
-	separation = 18
+	separation = 48
 
 	["Dungeon Placement".Biomes]
 		#----------------------------------------------------------------------------------------------------+
@@ -51,7 +50,7 @@
 		#----------------------------------------------------------------------------------------------------+
 		#List of biomes that should never contain dungeons.
 		#
-		"Biome Blacklist" = "the_end, ocean"
+		"Biome Blacklist" = "the_end, ocean, jamd:mining, javd:void, compactmachines:machine"
 		#----------------------------------------------------------------------------------------------------+
 		#List of biome categories the dungeons should spawn in.
 		#Entries have to be comma-separated.
