@@ -1,7 +1,5 @@
 # ScumPack-X
  
-updated Github to 1.0.0.3, The Version When ETL Told Me I Was The One Uploading To GitHub Which Is Totally Fine
-
 This pack is meant to provide a well-rounded modded experience with the main priority being world stability to increase the longevity of server worlds. The second priority is to provide a number of options for the major areas of the game that will be useful for both players new to modded minecraft and seasoned veterans:
 
  
