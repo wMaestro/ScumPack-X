@@ -1,0 +1,1628 @@
+{
+    "customCategories": {
+    "mod_saplings": {
+      "name": "Mod Saplings",
+      "icon": {
+        "item": "ars_nouveau:blue_archwood_sapling"
+      }
+    },
+     "mod_seeds": {
+      "name": "Mod Seeds",
+      "icon": {
+        "item": "croptopia:garlic_seed"
+      }
+    },
+	"mod_flowers": {
+      "name": "Mod Flowers",
+      "icon": {
+        "item": "mna:wakebloom"
+      }
+    },
+    "fertilizer": {
+      "name": "Fertilizer",
+      "icon": {
+        "item": "farmingforblockheads:fertilized_farmland_rich"
+      }
+    },
+    "mushrooms": {
+      "name": "Mushrooms",
+      "icon": {
+        "item": "minecraft:red_mushroom"
+      }
+    },
+    "water_plants": {
+      "name": "Water Plants",
+      "icon": {
+        "item": "minecraft:sea_pickle"
+      }
+    },
+    "botania_flowers": {
+      "name": "Botania Flowers",
+      "icon": {
+        "item": "botania:blue_shiny_flower"
+      }
+	}
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "minecraft:seagrass",
+        "count": 8
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "water_plants"
+    },
+    {
+      "output": {
+        "item": "minecraft:sea_pickle",
+        "count": 8
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "water_plants"
+    },
+     {
+      "output": {
+        "item": "ars_nouveau:blue_archwood_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "ars_nouveau:source_gem"
+      },
+      "category": "mod_saplings"
+    },
+     {
+      "output": {
+        "item": "ars_nouveau:green_archwood_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "ars_nouveau:source_gem"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "botania:white_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:orange_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:magenta_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:light_blue_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:yellow_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:lime_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:pink_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:gray_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:light_gray_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:cyan_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:purple_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:blue_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:brown_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:green_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:white_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:orange_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:magenta_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:light_blue_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:yellow_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:lime_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:pink_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:gray_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:light_gray_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:cyan_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:purple_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:blue_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:brown_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:green_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:red_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:black_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:red_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:black_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+     {
+      "output": {
+        "item": "ars_nouveau:purple_archwood_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "ars_nouveau:source_gem"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "ars_nouveau:red_archwood_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "ars_nouveau:source_gem"
+      },
+      "category": "mod_saplings"
+    },
+     {
+      "output": {
+        "item": "croptopia:almond_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:apple_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:apricot_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+        {
+      "output": {
+        "item": "croptopia:avocado_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:banana_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:cashew_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:cherry_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:cinnamon_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:coconut_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:date_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:dragonfruit_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:fig_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:grapefruit_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:kumquat_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:lemon_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:lime_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:mango_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:nectarine_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:nutmeg_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:orange_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:peach_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:pear_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:pecan_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:persimmon_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:plum_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:starfruit_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:walnut_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "hexerei:willow_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "indreb:rubber_sapling",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "minecraft:lily_pad",
+        "count": 8
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "water_plants"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:wilted_lily",
+        "count": 8
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "water_plants"
+    },
+    
+    {
+      "output": {
+        "item": "minecraft:kelp",
+        "count": 8
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "water_plants"
+    },
+    {
+      "output": {
+        "item": "minecraft:red_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "minecraft:brown_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mushrooms"
+    },    
+    {
+      "output": {
+        "item": "farmingforblockheads:green_fertilizer",
+        "count": 2
+      },
+      "payment": {
+        "item": "minecraft:gold_ingot",
+        "count": 4
+      },
+      "category": "fertilizer"
+    },
+    {
+      "output": {
+        "item": "farmingforblockheads:red_fertilizer",
+        "count": 2
+      },
+      "payment": {
+        "item": "minecraft:gold_ingot",
+        "count": 4
+      },
+      "category": "fertilizer"
+    },
+    {
+      "output": {
+        "item": "farmingforblockheads:yellow_fertilizer",
+        "count": 2
+      },
+      "payment": {
+        "item": "minecraft:gold_ingot",
+        "count": 4
+      },
+      "category": "fertilizer"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:rainbow_birch_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:origin_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:flowering_oak_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:yellow_autumn_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:orange_autumn_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:maple_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:fir_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:redwood_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:white_cherry_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:pink_cherry_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:mahogany_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:jacaranda_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:palm_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:willow_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:dead_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:magic_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:umbran_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:hellbark_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "croptopia:artichoke_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:asparagus_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:barley_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:basil_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:bellpepper_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:blackbean_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:blackberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:blueberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:broccoli_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:cabbage_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:cantaloupe_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:cauliflower_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:celery_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:chile_pepper_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:coffee_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:corn_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:cranberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:cucumber_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:currant_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:eggplant_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:elderberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:garlic_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:ginger_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:grape_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:greenbean_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:greenonion_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:honeydew_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:hops_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:kale_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:kiwi_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:leek_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:lettuce_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:mustard_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:oat_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:olive_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:onion_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:peanut_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:pepper_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:pineapple_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:radish_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:raspberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:rhubarb_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:rice_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:rutabaga_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:saguaro_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:soybean_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:spinach_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:squash_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:strawberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:sweetpotato_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:tea_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:tomatillo_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:tomato_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:turmeric_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:turnip_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:yam_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:zucchini_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "croptopia:zucchini_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "immersiveengineering:seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "silentgear:flax_seeds"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "silentgear:fluffy_seeds"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+    {
+      "output": {
+        "item": "supplementaries:flax_seeds"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "mod_seeds"
+    },
+	{
+      "output": {
+        "item": "hexerei:belladonna_flower"
+      },
+      "payment": {
+        "item": "hexerei:blood_bottle"
+      },
+      "category": "mod_flowers"
+    },
+	{
+      "output": {
+        "item": "hexerei:mahogany_sapling"
+      },
+      "payment": {
+        "item": "hexerei:blood_bottle"
+      },
+      "category": "mod_saplings"
+    },
+	{
+      "output": {
+        "item": "hexerei:mandrake_flower"
+      },
+      "payment": {
+        "item": "hexerei:blood_bottle"
+      },
+      "category": "mod_flowers"
+    },
+	{
+      "output": {
+        "item": "hexerei:sage_seed"
+      },
+      "payment": {
+        "item": "hexerei:blood_bottle"
+      },
+      "category": "mod_seeds"
+    },
+	{
+      "output": {
+        "item": "hexerei:yellow_dock_bush"
+      },
+      "payment": {
+        "item": "hexerei:blood_bottle"
+      },
+      "category": "mod_seeds"
+    },
+	{
+      "output": {
+        "item": "mna:aum"
+      },
+      "payment": {
+        "item": "mna:vinteum_dust"
+      },
+      "category": "mod_flowers"
+    },
+	{
+      "output": {
+        "item": "mna:cerublossom"
+      },
+      "payment": {
+        "item": "mna:vinteum_dust"
+      },
+      "category": "mod_flowers"
+    },
+	{
+      "output": {
+        "item": "mna:desert_nova"
+      },
+      "payment": {
+        "item": "mna:vinteum_dust"
+      },
+      "category": "mod_flowers"
+    },
+	{
+      "output": {
+        "item": "mna:tarma_root"
+      },
+      "payment": {
+        "item": "mna:vinteum_dust"
+      },
+      "category": "mod_flowers"
+    },
+	{
+      "output": {
+        "item": "mna:wakebloom"
+      },
+      "payment": {
+        "item": "mna:vinteum_dust"
+      },
+      "category": "mod_flowers"
+    }
+  ]
+}
