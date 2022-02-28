@@ -1,37 +1,36 @@
-
 ["Dimension-Level Blacklists"]
 
 	["Dimension-Level Blacklists"."mna:spell_breaker"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "dimdungeons:dungeon_dimension, jamd:mining, javd:void"
 
 	["Dimension-Level Blacklists"."mna:witch_hunter"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "dimdungeons:dungeon_dimension, jamd:mining, javd:void"
 
 	["Dimension-Level Blacklists"."mna:pixie"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "dimdungeons:dungeon_dimension, jamd:mining, javd:void"
 
 	["Dimension-Level Blacklists"."mna:mushroom_soldier"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "dimdungeons:dungeon_dimension, jamd:mining, javd:void"
 
 	["Dimension-Level Blacklists"."mna:hulking_zombie"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "dimdungeons:dungeon_dimension, jamd:mining, javd:void"
 
 	["Dimension-Level Blacklists"."mna:skeleton_assassin"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "dimdungeons:dungeon_dimension, jamd:mining, javd:void"
 
 	["Dimension-Level Blacklists"."mna:demon_imp"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "dimdungeons:dungeon_dimension, jamd:mining, javd:void"
 
 	["Dimension-Level Blacklists"."mna:lantern_wraith"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "dimdungeons:dungeon_dimension, jamd:mining, javd:void"
 
 [none]
 

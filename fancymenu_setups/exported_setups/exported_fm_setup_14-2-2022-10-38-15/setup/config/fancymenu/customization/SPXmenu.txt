@@ -1,0 +1,231 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/spxsplashpage.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400310%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=400310%
+  width = 170
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=400310%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=400358%
+  width = 170
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=400358%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  identifier = %id=604394%
+  orientation = mid-left
+  x = 94
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=604394%
+  width = 80
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=604394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  identifier = %id=376310%
+  orientation = mid-right
+  x = -954
+  action = movebutton
+  y = 74
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = -75
+}
+
+customization {
+  identifier = %id=400286%
+  width = 170
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=400286%
+  loopbackgroundanimations = false
+  restartbackgroundanimations = false
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  identifier = %id=400286%
+  action = sethoverlabel
+  label = Singleplayer
+}
+
+customization {
+  identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-left
+  x = 5
+  action = movebutton
+  y = -6
+}
+
+customization {
+  identifier = %id=400394%
+  width = 170
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=400394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  identifier = %id=3763941%
+  orientation = mid-right
+  x = -930
+  action = movebutton
+  y = 74
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = 40
+}
+
+customization {
+  identifier = %id=502394%
+  width = 170
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=502394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  identifier = %id=376394%
+  orientation = mid-left
+  x = 5
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=376394%
+  width = 80
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=376394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button-g5fc0e6dc0_1280.png
+  backgroundnormal = resources\button-g5fc0e6dc0_1280.png
+}
+
+customization {
+  path = resources/spx2.png
+  orientation = top-left
+  x = 776
+  width = 177
+  action = addtexture
+  actionid = 3a4e6df2-f842-4379-9abe-674c615bdc2d1643928406394
+  y = 398
+  height = 100
+}
+

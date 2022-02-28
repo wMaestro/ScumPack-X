@@ -2,7 +2,7 @@
 #Server configuration settings
 [server]
 	#Prevent clients from disabling the vampire forest fog
-	enforceForestFog = true
+	enforceForestFog = false
 	#If vampires can convert to a bat in the End
 	batModeInEnd = false
 	#If PVP should only be allowed between factions. PVP has to be enabled in the server properties for this. Not guaranteed to always protect player from teammates

@@ -10,7 +10,7 @@
 	#Whether the Grid should prevent sorting while the shift key is held down
 	preventSortingWhileShiftIsDown = true
 	#Whether the Grid should remember the search query when closing and re-opening the Grid
-	rememberSearchQuery = false
+	rememberSearchQuery = true
 
 [crafterManager]
 	#The maximum amount of rows that the Crafter Manager can show when stretched

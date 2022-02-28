@@ -727,5 +727,79 @@
 	"cgm:grenade":
 	{
 		"gunWeapon": 1
-	}
+	},
+    "ars_nouveau:novice_spell_book":
+    {
+        "magicWeapon": 1
+    },
+    "ars_nouveau:apprentice_spell_book":
+    {
+        "magicWeapon": 1
+    },
+    "ars_nouveau:archmage_spell_book":
+    {
+        "magicWeapon": 1
+    },
+    "ars_nouveau:wand":
+    {
+        "magicWeapon": 1
+    },
+    "ars_nouveau:spell_bow":
+    {
+        "archeryWeapon": 1,
+        "magicWeapon": 1
+    },
+    "ars_nouveau:enchanters_sword":
+    {
+        "meleeWeapon": 1,
+        "magicWeapon": 1
+    },
+    "ars_nouveau:caster_tome":
+    {
+        "magicWeapon": 1
+    },
+    "ars_nouveau:enchanters_mirror":
+    {
+        "magicWeapon": 1
+    },
+    "mna:spell":
+    {
+        "magicWeapon": 1
+    },
+    "mna:manaweaver_wand":
+    {
+        "magicWeapon": 1
+    },
+    "mna:manaweaver_wand_advanced":
+    {
+        "magicWeapon": 1
+    },
+    "mna:spell_book":
+    {
+        "magicWeapon": 1
+    },
+    "mna:staff_a":
+    {
+        "magicWeapon": 1
+    },
+    "mna:staff_b":
+    {
+        "magicWeapon": 1
+    },
+    "mna:staff_c":
+    {
+        "magicWeapon": 1
+    },
+    "mna:wand":
+    {
+        "magicWeapon": 1
+    },
+    "mna:wand_b":
+    {
+        "magicWeapon": 1
+    },
+    "mna:wand_c":
+    {
+        "magicWeapon": 1
+    }
 }

@@ -6,7 +6,7 @@
 		#Range: 0 ~ 64
 		flatness_delta = 4
 		#Dimensions in which Structures can NOT generate in
-		blacklisted_dimensions = ["javd:void", "jamd:mining"]
+		blacklisted_dimensions = ["javd:void", "jamd:mining", "compactmachines:compact_world"]
 		#Biomes in which Structures can NOT generate in
 		blacklisted_biomes = ["minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach", "minecraft:stony_shore", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"]
 

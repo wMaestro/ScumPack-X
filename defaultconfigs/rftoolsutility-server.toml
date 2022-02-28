@@ -185,6 +185,9 @@
 	blacklistedTeleportationSources = ""
 	#Comma separated list of dimension ids that the teleportation system can't teleport to
 	blacklistedTeleportationDestinations = ""
+	#Percentage of power left in a dimension before giving a warning with the destination analyzer
+	#Range: 0 ~ 100
+	dimensionWarnPercentage = 5
 
 #Settings for the environmental controller
 [environmental]

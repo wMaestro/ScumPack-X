@@ -63,6 +63,11 @@
 	#Chance of catching a bee when fishing
 	#Range: 0.0 ~ 1.0
 	fishingBeeChance = 0.05
+	#Chance to spawn a KamikazBee when hit while wearing bee nest armor
+	#Range: 0.0 ~ 1.0
+	kamikazBeeChance = 0.3
+	#Disable the wander goal in bees to increase performance
+	disableWanderGoal = false
 
 ["Bee attributes"]
 	#Number of ticks between effects on nearby entities
@@ -119,7 +124,7 @@
 	#Chance for a bee to produce an offspring after a hive visit.
 	#Range: 0.0 ~ 1.0
 	breedingChance = 0.05
-	#Chance for a bee to produce an offspring after a hive visit.
+	#How many bees can be around a hive before a babee upgrade stops working.
 	#Range: > 0
 	breedingMaxNearbyEntities = 10
 	#Chance for a gene sample to be taken from a bee after a hive visit.
