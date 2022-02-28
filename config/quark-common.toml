@@ -454,6 +454,8 @@
 		"Ignored Recipes" = []
 		"Force Limited Crafting" = false
 		"Disable Recipe Book" = false
+		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
+		"Filter Recipe Advancements" = true
 
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
@@ -470,6 +472,7 @@
 	"Blossom Trees" = true
 	"Big Stone Clusters" = true
 	"Big Dungeon" = true
+	"Glimmering Weald" = true
 
 	[world.spiral_spires]
 		Rarity = 200

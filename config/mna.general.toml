@@ -51,6 +51,9 @@ undeadSouls = 50
 	disableNewProfessions = false
 	#Can bosses be summoned?
 	bossSummons = false
+	#Change this to globally scale the damage of M&A damaging spells - this will not affect bound items, this will only affect damaging spell components.  It also will currently not show up in tooltips/UIs, but I will fine-tune this later.  Apologies for the partial implementation, but speed was key in this situation.
+	#Range: 0.25 ~ 999.0
+	spellDamageMultiplier = 1.0
 	#A comma separated list of entity IDs that the warding candle should ignore, regardless of detection (use this if it's stopping you from something you think it shouldn't; this isn't to expand what it will block)
 	wardingCandleBlacklist = ""
 	#What the mod considers to be the average manaweave cost when generating manaweaves automatically for the player.

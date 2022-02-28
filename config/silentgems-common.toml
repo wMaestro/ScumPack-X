@@ -1019,10 +1019,10 @@
 			[world.18-1.ores.silver]
 				#Number of veins per chunk that the ore spawns in. Rarity is rolled against first and no veins will generate in the chunk if the check fails.
 				#Range: > 0
-				count = 2
+				count = 0
 				#Size of veins
 				#Range: 0 ~ 1000
-				size = 7
+				size = 0
 				#The chance (1 in N) of generating in any given chunk. Higher numbers means more rare.
 				#Range: > 0
 				rarity = 1

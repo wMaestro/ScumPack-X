@@ -1,13 +1,13 @@
 {
 	"all_dimensions": {},
-	"some:dimension":
+	"minecraft:the_end":
 	{
 		"flying": 50,
 		"combat": 20,
 		"archery": 50,
 		"endurance": 20
 	},
-	"some:dimension2":
+	"minecraft:the_nether":
 	{
 		"combat": 25,
 		"archery": 25,

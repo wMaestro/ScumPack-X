@@ -1,0 +1,12 @@
+{
+	id: "65FEB2C8B54D9CA7"
+	group: "74AF662846ABDDB5"
+	order_index: 3
+	filename: "trinkets_and_other_stuff"
+	title: "Curios, Baubles, Artifacts..."
+	icon: "artifacts:lucky_scarf"
+	disable_toast: true
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

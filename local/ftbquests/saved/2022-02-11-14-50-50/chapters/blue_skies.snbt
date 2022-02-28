@@ -1,0 +1,13 @@
+{
+	id: "3C982E32192D0511"
+	group: "629FB634C8EE8C8C"
+	order_index: 3
+	filename: "blue_skies"
+	title: "Blue Skies"
+	icon: "blue_skies:multi_portal_item"
+	disable_toast: true
+	subtitle: ["Everbright + Everdawn"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

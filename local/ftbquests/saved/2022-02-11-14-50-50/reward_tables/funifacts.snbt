@@ -1,0 +1,24 @@
+{
+	id: "6A9ED5D3797484BD"
+	order_index: 1
+	title: "Funifacts"
+	loot_size: 1
+	rewards: [
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "nomowanderer:no_soliciting_sign" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "funifacts"
+	}
+}

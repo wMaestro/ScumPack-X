@@ -1,9 +1,9 @@
 #Stop mods from adding custom flowers
-flowers = true
+flowers = false
 #Stop mods from adding surface structures
-surface_structures = true
+surface_structures = false
 #Stop mods from adding entities
-entities = true
+entities = false
 #Stop mods from adding lakes
 lakes = true
 

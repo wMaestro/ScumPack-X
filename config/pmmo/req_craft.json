@@ -1,783 +1,82 @@
-{
+{	
 	"bettercrates:copper_crate":
 	{
-		"crafting": 1
-	},
-	"bettercrates:tin_crate":
-	{
-		"crafting": 1
-	},
-	"bettercrates:iron_crate":
-	{
-		"crafting": 2
-	},
-	"bettercrates:gold_crate":
-	{
-		"crafting": 4
+		"mining": 15, "crafting": 5
 	},
 	"bettercrates:diamond_crate":
 	{
-		"crafting": 5
+		"mining": 30, "crafting": 15
+	},
+	"bettercrates:golden_crate":
+	{
+		"mining": 20, "crafting": 10
+	},
+	"bettercrates:iron_crate":
+	{
+		"mining": 20, "crafting": 5
 	},
 	"bettercrates:obsidian_crate":
 	{
-		"crafting": 8
+		"mining": 40, "crafting": 20, "magic": 10
 	},
-	"appliedenergistics2:128_cubed_spatial_cell_component":
+	"bettercrates:tin_crate":
 	{
-		"crafting": 10
+		"mining": 15, "crafting": 5
 	},
-	"appliedenergistics2:128_cubed_spatial_storage_cell":
+	"bettercrates:up_copper":
 	{
-		"crafting": 10
+		"mining": 15, "crafting": 5
 	},
-	"appliedenergistics2:16_cubed_spatial_cell_component":
+	"bettercrates:up_diamond":
 	{
-		"crafting": 8
+		"mining": 30, "crafting": 15
 	},
-	"appliedenergistics2:16_cubed_spatial_storage_cell":
+	"bettercrates:up_golden":
 	{
-		"crafting": 8
+		"mining": 20, "crafting": 10
 	},
-	"appliedenergistics2:16k_cell_component":
+	"bettercrates:up_golden2":
 	{
-		"crafting": 6,
-		"smithing": 2
+		"mining": 20, "crafting": 10
 	},
-	"appliedenergistics2:16k_crafting_storage":
+	"bettercrates:up_golden3":
 	{
-		"crafting": 6,
-		"smithing": 2
+		"mining": 20, "crafting": 10
 	},
-	"appliedenergistics2:16k_fluid_cell_component":
+	"bettercrates:up_iron":
 	{
-		"crafting": 2,
-		"smithing": 1
+		"mining": 20, "crafting": 5
 	},
-	"appliedenergistics2:16k_fluid_storage_cell":
+	"bettercrates:up_obsidian":
 	{
-		"crafting": 2,
-		"smithing": 1
+		"mining": 40, "crafting": 20, "magic": 10
 	},
-	"appliedenergistics2:16k_storage_cell":
+	"bettercrates:up_tin":
 	{
-		"crafting": 6,
-		"smithing": 2
+		"mining": 15, "crafting": 5
 	},
-	"appliedenergistics2:1k_cell_component":
+	"hostilenetworks:loot_fabricator":
 	{
-		"crafting": 1,
-		"smithing": 1
+		"combat": 30
 	},
-	"appliedenergistics2:1k_fluid_cell_component":
+	"hostilenetworks:sim_chamber":
 	{
-		"crafting": 1,
-		"smithing": 5
+		"combat": 30
 	},
-	"appliedenergistics2:1k_fluid_storage_cell":
+	"bonsaitrees3:bonsaipot":
 	{
-		"crafting": 1,
-		"smithing": 5
+		"woodcutting": 20
 	},
-	"appliedenergistics2:1k_storage_cell":
+	"angelring:itemring":
 	{
-		"crafting": 1,
-		"smithing": 1
+		"mining": 20, "crafting": 20, "building": 20, "flying": 10, "magic": 20
 	},
-	"appliedenergistics2:2_cubed_spatial_cell_component":
+	"minecraft:elytra":
 	{
-		"crafting": 8
+		"mining": 10, "crafting": 10, "building": 10, "flying": 5, "magic": 10
 	},
-	"appliedenergistics2:2_cubed_spatial_storage_cell":
+	"silentgear:elytra":
 	{
-		"crafting": 8
-	},
-	"appliedenergistics2:4k_cell_component":
-	{
-		"crafting": 2,
-		"smithing": 1
-	},
-	"appliedenergistics2:4k_crafting_storage":
-	{
-		"crafting": 2,
-		"smithing": 1
-	},
-	"appliedenergistics2:4k_fluid_cell_component":
-	{
-		"crafting": 2,
-		"smithing": 1
-	},
-	"appliedenergistics2:4k_fluid_storage_cell":
-	{
-		"crafting": 2,
-		"smithing": 1
-	},
-	"appliedenergistics2:4k_storage_cell":
-	{
-		"crafting": 2,
-		"smithing": 1
-	},
-	"appliedenergistics2:64k_cell_component":
-	{
-		"crafting": 5,
-		"smithing": 2
-	},
-	"appliedenergistics2:64k_crafting_storage":
-	{
-		"crafting": 5,
-		"smithing": 2
-	},
-	"appliedenergistics2:64k_fluid_cell_component":
-	{
-		"crafting": 5,
-		"smithing": 2
-	},
-	"appliedenergistics2:64k_fluid_storage_cell":
-	{
-		"crafting": 5,
-		"smithing": 2
-	},
-	"appliedenergistics2:64k_storage_cell":
-	{
-		"crafting": 5,
-		"smithing": 2
-	},
-	"appliedenergistics2:annihilation_plane":
-	{
-		"crafting": 5,
-		"smithing": 42
-	},
-	"appliedenergistics2:charger":
-	{
-		"crafting": 5
-	},
-	"appliedenergistics2:condenser":
-	{
-		"crafting": 1
-	},
-	"appliedenergistics2:controller":
-	{
-		"crafting": 6,
-		"smithing": 1
-	},
-	"appliedenergistics2:crafting_terminal":
-	{
-		"crafting": 2
-	},
-	"appliedenergistics2:drive":
-	{
-		"crafting": 5,
-		"smithing": 2
-	},
-	"appliedenergistics2:fluid_annihilation_plane":
-	{
-		"crafting": 6,
-		"smithing": 2
-	},
-	"appliedenergistics2:fluid_formation_plane":
-	{
-		"crafting": 6,
-		"smithing": 3
-	},
-	"appliedenergistics2:fluid_interface":
-	{
-		"crafting": 6,
-		"smithing": 2
-	},
-	"appliedenergistics2:fluid_terminal":
-	{
-		"crafting": 6,
-		"smithing": 2
-	},
-	"appliedenergistics2:formation_plane":
-	{
-		"crafting": 5,
-		"smithing": 6
-	},
-	"appliedenergistics2:inscriber":
-	{
-		"crafting": 5
-	},
-	"appliedenergistics2:interface":
-	{
-		"crafting": 5,
-		"smithing": 6
-	},
-	"appliedenergistics2:interface_terminal":
-	{
-		"crafting": 5,
-		"smithing": 6
-	},
-	"appliedenergistics2:io_port":
-	{
-		"crafting": 8,
-		"smithing": 2
-	},
-	"appliedenergistics2:molecular_assembler":
-	{
-		"crafting": 6,
-		"smithing": 2
-	},
-	"appliedenergistics2:pattern_terminal":
-	{
-		"crafting": 2
-	},
-	"appliedenergistics2:quartz_growth_accelerator":
-	{
-		"crafting": 5,
-		"smithing": 2
-	},
-	"appliedenergistics2:spatial_io_port":
-	{
-		"crafting": 6,
-		"smithing": 2
-	},
-	"appliedenergistics2:spatial_pylon":
-	{
-		"crafting": 8,
-		"smithing": 2
-	},
-	"appliedenergistics2:terminal":
-	{
-		"crafting": 2
-	},
-	"appliedenergistics2:vibration_chamber":
-	{
-		"crafting": 10,
-		"smithing": 5
-	},
-	"appliedenergistics2:wireless_access_point":
-	{
-		"crafting": 5,
-		"smithing": 2
-	},
-	"appliedenergistics2:wireless_booster":
-	{
-		"crafting": 2,
-		"smithing": 2
-	},
-	"appliedenergistics2:wireless_receiver":
-	{
-		"crafting": 5,
-		"smithing": 2
-	},
-	"appliedenergistics2:wireless_terminal":
-	{
-		"crafting": 5,
-		"smithing": 5
-	},
-	"create:adjustable_crate":
-	{
-		"crafting": 1
-	},
-	"create:adjustable_pulley":
-	{
-		"crafting": 2
-	},
-	"create:adjustable_pulse_repeater":
-	{
-		"crafting": 2
-	},
-	"create:adjustable_repeater":
-	{
-		"crafting": 1
-	},
-	"create:analog_lever":
-	{
-		"crafting": 1
-	},
-	"create:andesite_alloy":
-	{
-		"crafting": 1,
-		"smithing": 5
-	},
-	"create:andesite_casing":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:attribute_filter":
-	{
-		"crafting": 1,
-		"smithing": 5
-	},
-	"create:basin":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:belt_connector":
-	{
-		"crafting": 1
-	},
-	"create:belt_observer":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:belt_tunnel":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:brass_casing":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:brass_hand":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:cart_assembler":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:clockwork_bearing":
-	{
-		"crafting": 1
-	},
-	"create:clutch":
-	{
-		"crafting": 1
-	},
-	"create:cogwheel":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:copper_casing":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:crafter_slot_cover":
-	{
-		"crafting": 1,
-		"smithing": 5
-	},
-	"create:cuckoo_clock":
-	{
-		"crafting": 1
-	},
-	"create:deforester":
-	{
-		"crafting": 2,
-		"smithing": 2
-	},
-	"create:deployer":
-	{
-		"crafting": 1
-	},
-	"create:electron_tube":
-	{
-		"crafting": 1,
-		"smithing": 5
-	},
-	"create:empty_schematic":
-	{
-		"crafting": 5
-	},
-	"create:encased_belt":
-	{
-		"crafting": 1
-	},
-	"create:encased_fan":
-	{
-		"crafting": 1
-	},
-	"create:encased_shaft":
-	{
-		"crafting": 1
-	},
-	"create:extractor":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:filter":
-	{
-		"crafting": 1,
-		"smithing": 5
-	},
-	"create:funnel":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:gearbox":
-	{
-		"crafting": 1
-	},
-	"create:gearshift":
-	{
-		"crafting": 1
-	},
-	"create:goggles":
-	{
-		"crafting": 2,
-		"smithing": 1
-	},
-	"create:hand_crank":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:handheld_blockzapper":
-	{
-		"crafting": 2,
-		"smithing": 2
-	},
-	"create:large_cogwheel":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:linear_chassis":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:linked_extractor":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:linked_transposer":
-	{
-		"crafting": 1
-	},
-	"create:mechanical_bearing":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:mechanical_crafter":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:mechanical_drill":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:mechanical_harvester":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:mechanical_mixer":
-	{
-		"crafting": 1
-	},
-	"create:mechanical_piston":
-	{
-		"crafting": 1
-	},
-	"create:mechanical_plough":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:mechanical_press":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:mechanical_saw":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:millstone":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:nozzle":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:piston_extension_pole":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:portable_storage_interface":
-	{
-		"crafting": 1
-	},
-	"create:powered_latch":
-	{
-		"crafting": 1
-	},
-	"create:powered_toggle_latch":
-	{
-		"crafting": 1
-	},
-	"create:propeller":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:pulse_repeater":
-	{
-		"crafting": 1
-	},
-	"create:radial_chassis":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:red_sand_paper":
-	{
-		"crafting": 5
-	},
-	"create:redstone_contact":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:redstone_link":
-	{
-		"crafting": 2,
-		"building": 1
-	},
-	"create:rope_pulley":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:rotation_speed_controller":
-	{
-		"crafting": 2
-	},
-	"create:sand_paper":
-	{
-		"crafting": 5
-	},
-	"create:schematic_and_quill":
-	{
-		"crafting": 5
-	},
-	"create:schematic_table":
-	{
-		"crafting": 1
-	},
-	"create:schematicannon":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:secondary_linear_chassis":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:sequenced_gearshift":
-	{
-		"crafting": 1
-	},
-	"create:shaft":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:speedometer":
-	{
-		"crafting": 1
-	},
-	"create:sticky_mechanical_piston":
-	{
-		"crafting": 1
-	},
-	"create:stockpile_switch":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:stressometer":
-	{
-		"crafting": 1
-	},
-	"create:super_glue":
-	{
-		"crafting": 1
-	},
-	"create:transposer":
-	{
-		"crafting": 1
-	},
-	"create:tree_fertilizer":
-	{
-		"crafting": 1,
-		"farming": 1
-	},
-	"create:turntable":
-	{
-		"crafting": 1
-	},
-	"create:vertical_gearbox":
-	{
-		"crafting": 1
-	},
-	"create:wand_of_symmetry":
-	{
-		"crafting": 2,
-		"smithing": 2
-	},
-	"create:water_wheel":
-	{
-		"crafting": 1
-	},
-	"create:whisk":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"create:wrench":
-	{
-		"crafting": 1,
-		"smithing": 1
-	},
-	"enderstorage:ender_chest":
-	{
-		"smithing": 6
-	},
-	"enderstorage:ender_pouch":
-	{
-		"crafting": 5
-	},
-	"enderstorage:ender_tank":
-	{
-		"smithing": 5
-	},
-	"endreborn:ender_transmitter":
-	{
-		"crafting": 5
-	},
-	"ironchest:copper_chest":
-	{
-		"smithing": 1
-	},
-	"ironchest:copper_to_iron_chest_upgrade":
-	{
-		"smithing": 1
-	},
-	"ironchest:copper_to_silver_chest_upgrade":
-	{
-		"smithing": 1
-	},
-	"ironchest:crystal_chest":
-	{
-		"smithing": 5
-	},
-	"ironchest:diamond_chest":
-	{
-		"smithing": 6
-	},
-	"ironchest:diamond_to_crystal_chest_upgrade":
-	{
-		"smithing": 5
-	},
-	"ironchest:diamond_to_obsidian_chest_upgrade":
-	{
-		"smithing": 5
-	},
-	"ironchest:gold_chest":
-	{
-		"smithing": 2
-	},
-	"ironchest:gold_to_diamond_chest_upgrade":
-	{
-		"smithing": 6
-	},
-	"ironchest:iron_chest":
-	{
-		"smithing": 1
-	},
-	"ironchest:iron_to_gold_chest_upgrade":
-	{
-		"smithing": 2
-	},
-	"ironchest:obsidian_chest":
-	{
-		"smithing": 5
-	},
-	"ironchest:silver_chest":
-	{
-		"smithing": 1
-	},
-	"ironchest:silver_to_gold_chest_upgrade":
-	{
-		"smithing": 2
-	},
-	"ironchest:wood_to_copper_chest_upgrade":
-	{
-		"smithing": 1
-	},
-	"ironchest:wood_to_iron_chest_upgrade":
-	{
-		"smithing": 1
-	},
-	"minecraft:blast_furnace":
-	{
-		"crafting": 1
-	},
-	"minecraft:smoker":
-	{
-		"crafting": 1
-	},
-	"minecraft:stonecutter":
-	{
-		"crafting": 1
-	},
-	"storagedrawers:compacting_drawers_3":
-	{
-		"crafting": 2
-	},
-	"storagedrawers:controller":
-	{
-		"crafting": 6
-	},
-	"storagedrawers:controller_slave":
-	{
-		"crafting": 5
-	},
-	"storagedrawers:conversion_upgrade":
-	{
-		"crafting": 2
-	},
-	"storagedrawers:diamond_storage_upgrade":
-	{
-		"crafting": 6
-	},
-	"storagedrawers:emerald_storage_upgrade":
-	{
-		"crafting": 5
-	},
-	"storagedrawers:gold_storage_upgrade":
-	{
-		"crafting": 2
-	},
-	"storagedrawers:illumination_upgrade":
-	{
-		"crafting": 2
-	},
-	"storagedrawers:iron_storage_upgrade":
-	{
-		"crafting": 1
-	},
-	"storagedrawers:obsidian_storage_upgrade":
-	{
-		"crafting": 1
-	},
-	"storagedrawers:void_upgrade":
-	{
-		"crafting": 1
+		"mining": 10, "crafting": 10, "building": 10, "flying": 5, "magic": 10
 	}
 }

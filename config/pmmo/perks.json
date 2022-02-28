@@ -1,87 +1,65 @@
 {
 	"SKILL_UP": {
 		"combat": [
-			{"perk":"pmmo:damage",
-			"per_level": 0.005,
-			"max_boost": 20
-			}
+			{"perk":"pmmo:damage"}
 		],
 		"endurance": [ 
-			{"perk":"pmmo:health",
-			"max_boost": 40,
-			"per_level": 0.1
-			}
+			{"perk":"pmmo:health"}
 		],
 		"building": [
-			{"perk":"pmmo:reach",
-			"max_boost": 8,
-			"per_level": 0.005
-			}
+			{"perk":"pmmo:reach"}
 		],
 		"agility": [ 
-			{"perk":"pmmo:speed",
-			"max_boost": 5,
-			"per_level": 0.005 }
-		],
-		"swimming": [
-			{"perk":"pmmo:breath",
-			"per_level": 0.1}
+			{"perk":"pmmo:speed"}
 		]
 	},
 	"JUMPING": { 
 		"agility": [ 
 			{"perk":"pmmo:jump_boost",
-			 "per_level": 0.001,
-			 "max_boost": 1
+			 "per_level": 0.005
 			}
 		]
 	},
 	"SPRINT_JUMP": { 
-		"agility": [ 	
+		"agility": [ 
 			{"perk":"pmmo:jump_boost",
-			 "per_level": 0.001,
-			 "max_boost": 0.1
+			 "per_level": 0.01
 			}
 		]
 	},
 	"CROUCH_JUMP": { 
 		"agility": [ 
 			{"perk":"pmmo:jump_boost",
-			 "per_level": 0.001,
-			 "max_boost": 1
+			 "per_level": 0.015
 			}
 		]
 	},
 	"SUBMERGED": { 
 		"swimming": [ 
 			{"perk":"pmmo:breath"},
-			{"perk":"pmmo:night_vision",
-			"min_level": 45}
+			{"perk":"pmmo:night_vision"}
 		]
 	},
 	"FALL_DAMAGE": { 
 		"agility": [ 
 			{"perk":"pmmo:fall_save",
-			 "per_level": 0.05
+			 "per_level": 0.1
 			}
 		],
 		"endurance": [ 
 			{"perk":"pmmo:fall_save",
-			 "per_level": 0.05}
+			 "per_level": 0.25}
 		]
 	},
 	"DEAL_DAMAGE": { 
 		"archery": [
-			{"perk":"pmmo:damage_boost",
-			"per_level": 0.01}
+			{"perk":"pmmo:damage_boost"}
 		],
 		"magic": [
-			{"perk":"pmmo:damage_boost"
-			"per_level": 0.01}
+			{"perk":"pmmo:damage_boost"}
 		],
 		"gunslinging": [
-			{"perk":"pmmo:damage_boost"
-			"per_level": 0.01}
+			{"perk":"pmmo:damage_boost"}
 		]
 	}
 }

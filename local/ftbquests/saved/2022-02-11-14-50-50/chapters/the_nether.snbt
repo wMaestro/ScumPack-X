@@ -1,0 +1,23 @@
+{
+	id: "62796148751899A8"
+	group: "629FB634C8EE8C8C"
+	order_index: 1
+	filename: "the_nether"
+	title: "The Dimensions You Know"
+	icon: "minecraft:crying_obsidian"
+	disable_toast: true
+	subtitle: ["The Nether + The End"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "03D598A96F7C9BF8"
+		tasks: [{
+			id: "2268CADF3742F7D8"
+			type: "advancement"
+			advancement: "minecraft:story/enter_the_nether"
+			criterion: ""
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	id: "703B578A3AF11BD2"
+	group: "629FB634C8EE8C8C"
+	order_index: 0
+	filename: "dungeons_come_in_many_flavours"
+	title: "Dungeons And Other Basics"
+	icon: "minecraft:spawner"
+	disable_toast: true
+	subtitle: ["Roguelike-likes And Not?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

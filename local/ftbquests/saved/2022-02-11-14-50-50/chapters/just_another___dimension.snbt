@@ -1,0 +1,19 @@
+{
+	id: "662DCE3263571697"
+	group: "629FB634C8EE8C8C"
+	order_index: 2
+	filename: "just_another___dimension"
+	title: "Just Another Dim Or Two?"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "mna:textures/block/rituals/ritual_teleport_location_top.png"
+		}
+	}
+	disable_toast: true
+	subtitle: ["Void + Mining"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
