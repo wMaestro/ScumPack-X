@@ -2,5 +2,73 @@
 	"minecraft:exampleitem":
 	{
 		"magic": 10
-	}
+	},
+    "ars_nouveau:novice_spell_book":
+    {
+        "magic": 10
+    },
+    "ars_nouveau:apprentice_spell_book":
+    {
+        "magic": 20
+    },
+    "ars_nouveau:archmage_spell_book":
+    {
+        "magic": 30
+    },
+    "ars_nouveau:wand":
+    {
+        "magic": 10
+    },
+    "ars_nouveau:caster_tome":
+    {
+        "magic": 10
+    },
+    "ars_nouveau:enchanters_mirror":
+    {
+        "magic": 10
+    },
+    "mna:spell":
+    {
+        "magic": 2
+    },
+    "mna:manaweaver_wand":
+    {
+        "magic": 1
+    },
+    "mna:manaweaver_wand_advanced":
+    {
+        "magic": 2
+    },
+    "mna:spell_book":
+    {
+        "magic": 2
+    },
+    "mna:staff_a":
+    {
+        "magic": 2
+    },
+    "mna:staff_b":
+    {
+        "magic": 2
+    },
+    "mna:staff_c":
+    {
+        "magic": 2
+    },
+    "mna:wand":
+    {
+        "magic": 2
+    },
+    "mna:wand_b":
+    {
+        "magic": 2
+    },
+    "mna:wand_c":
+    {
+        "magic": 2
+    },
+    "mna:wizard_chalk":
+    {
+        "magic": 1
+    }
 }

@@ -35,7 +35,13 @@
       "icon": {
         "item": "minecraft:sea_pickle"
       }
-    }
+    },
+    "botania_flowers": {
+      "name": "Botania Flowers",
+      "icon": {
+        "item": "botania:blue_shiny_flower"
+      }
+	}
   },
   "customEntries": [
     {
@@ -77,6 +83,342 @@
         "item": "ars_nouveau:source_gem"
       },
       "category": "mod_saplings"
+    },
+    {
+      "output": {
+        "item": "botania:white_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:orange_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:magenta_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:light_blue_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:yellow_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:lime_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:pink_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:gray_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:light_gray_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:cyan_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:purple_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:blue_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:brown_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:green_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:white_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:orange_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:magenta_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:light_blue_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:yellow_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:lime_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:pink_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:gray_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:light_gray_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:cyan_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:purple_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:blue_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:brown_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:green_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:red_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:black_mystical_flower",
+		"count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer"
+      },
+      "category": "botania_flowers"
+    },
+    {
+      "output": {
+        "item": "botania:red_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
+    },
+    {
+      "output": {
+        "item": "botania:black_mushroom",
+        "count": 8
+      },
+      "payment": {
+        "item": "botania:fertilizer",
+        "count":2
+      },
+      "category": "mushrooms"
     },
      {
       "output": {
@@ -1282,6 +1624,5 @@
       },
       "category": "mod_flowers"
     }
-       
   ]
 }

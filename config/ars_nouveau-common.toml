@@ -2,10 +2,7 @@
 #General settings
 [general]
 	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
-	dimensionBlacklist = []
-	#Rate of tree spawn per chunk
-	#Range: 0.0 ~ 1.0
-	genTrees = 0.002
+	dimensionBlacklist = ["jamd:mining", "javd:void", "dimdungeons:dungeon_dimension"]
 	#Spawn Mana Berry Bushes in the world
 	genBerries = true
 	#Spawn a book in the players inventory on login
@@ -37,6 +34,9 @@
 	stalkerHuntsAnimals = false
 	#Should the Wilden Defender attack animals?
 	defenderHuntsAnimals = false
+	#Rate of tree spawn per chunk
+	#Range: > 0
+	treeWeight = 100
 
 [drygmy_production]
 	#How much source drygmys consume per generation

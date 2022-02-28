@@ -162,6 +162,8 @@
 
 	[building.glass_item_frame]
 		"Glass Item Frames Update Maps" = true
+		#The scale at which items render in the Glass Item Frame. To match the vanilla Item Frame size, set to 1.0
+		"Item Render Scale" = 1.5
 
 	[building.compressed_blocks]
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
@@ -203,6 +205,7 @@
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
 	"Chests In Boats" = true
+	"Quick Armor Swapping" = true
 
 	[management.item_sharing]
 		"Render Items In Chat" = true
@@ -221,6 +224,9 @@
 
 	[management.easy_transfering]
 		"Enable Shift Lock" = true
+
+	[management.quick_armor_swapping]
+		"Swap Off Hand" = true
 
 [tools]
 	Trowel = true
@@ -473,6 +479,7 @@
 	"Big Stone Clusters" = true
 	"Big Dungeon" = true
 	"Glimmering Weald" = true
+	"Azalea Wood" = true
 
 	[world.spiral_spires]
 		Rarity = 200
@@ -1091,7 +1098,7 @@
 				"Is Blacklist" = true
 
 			[world.big_dungeon.biome_config.biomes]
-				Biomes = []
+				Biomes = ["compactmachines:machine", "javd:void", "jamd:mining"]
 				"Is Blacklist" = true
 
 [mobs]
@@ -1347,6 +1354,7 @@
 	"Chest Searching" = true
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
+	"Soul Candles" = true
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true

@@ -40,7 +40,7 @@
 
 ["Anti Cheese"]
 	#Should player xp rates be reduced while they afk?
-	antiCheeseEnabled = true
+	antiCheeseEnabled = false
 	#How many points of Cheese is the maximum? (At maximum, the xp gain is at minimum, which is the minimumCheeseXpMultiplier value)
 	#Range: 1 ~ 1000000000
 	cheeseMaxStorage = 100
@@ -62,7 +62,7 @@
 
 ["Vein Mining"]
 	#Is vein mining allowed? true = on, false = off
-	veiningAllowed = true
+	veiningAllowed = false
 	#Should veining wood material blocks start from the highest block?
 	veinWoodTopToBottom = true
 	#Should players be allowed to vein blocks that they did not place?
@@ -139,13 +139,13 @@
 
 [Requirements]
 	#Should wear requirements be enabled? false means no requirements
-	wearReqEnabled = false
+	wearReqEnabled = true
 	#Should Enchantment Use requirements be enabled? false means no requirements
 	enchantUseReqEnabled = false
 	#Should Enchantment Use requirements automatically scale according to previous values, provided they exist? example: level1Req = 5 agility, level2Req = 10 farming - Level 4 enchantment would require level 10 agility, and level 20 farming (highestSpecifiedLevelReqs / highestSpecifiedLevel * enchantLevel)
 	enchantUseReqAutoScaleEnabled = false
 	#Should tool requirements be enabled? false means no requirements
-	toolReqEnabled = false
+	toolReqEnabled = true
 	#Should weapon requirements be enabled? false means no requirements
 	weaponReqEnabled = false
 	#Should mob kill req be enabled? false means no requirements
@@ -165,7 +165,7 @@
 	#Should dimensional travel requirements be enabled? false means no requirements
 	dimensionTravelReqEnabled = true
 	#Should certain items be restricted from being crafted, without the level requirement?
-	craftReqEnabled = false
+	craftReqEnabled = true
 	#Should biome negative effects be enabled? false means no negative effects
 	negativeBiomeEffectEnabled = false
 	#Should biome positive effects be enabled? false means no positive effects
