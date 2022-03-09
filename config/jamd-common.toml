@@ -1,9 +1,9 @@
 #Stop mods from adding custom flowers
-flowers = false
+flowers = true
 #Stop mods from adding surface structures
-surface_structures = false
+surface_structures = true
 #Stop mods from adding entities
-entities = false
+entities = true
 #Stop mods from adding lakes
 lakes = true
 #Main world id

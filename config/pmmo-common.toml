@@ -470,9 +470,9 @@
 [Swimming]
 	#Underwater Nightvision Unlock Level
 	#Range: 0 ~ 1000000
-	nightvisionUnlockLevel = 45
+	nightvisionUnlockLevel = 0
 	#Is Underwater Nightvision enabled?
-	underwaterNightVision = true
+	underwaterNightVision = false
 
 [Fishing]
 	#Should normal drops from Fishing be disabled?

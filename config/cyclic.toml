@@ -96,6 +96,10 @@
 			#Set false to disable enchantment
 			enabled = true
 
+		[cyclic.enchantment.steady]
+			#Set false to disable enchantment
+			enabled = true
+
 	#####################################################################################
 	# Worldgen settings  
 	#####################################################################################

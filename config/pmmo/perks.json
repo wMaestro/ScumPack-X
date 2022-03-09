@@ -36,8 +36,7 @@
 	},
 	"SUBMERGED": { 
 		"swimming": [ 
-			{"perk":"pmmo:breath"},
-			{"perk":"pmmo:night_vision"}
+			{"perk":"pmmo:breath"}
 		]
 	},
 	"FALL_DAMAGE": { 

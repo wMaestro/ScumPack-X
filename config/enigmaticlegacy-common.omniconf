@@ -668,7 +668,7 @@
 
 "Save the Bees" {
     # If true, bees will never affected by the Second Curse of Ring of the Seven Curses. [default: false, synchronized: yes]
-    B:CursedRingDontTouchMyBees=false
+    B:CursedRingDontTouchMyBees=true
 }
 
 
