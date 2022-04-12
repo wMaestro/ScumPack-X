@@ -203,3 +203,15 @@
 	#Range: 100 ~ 10000000
 	planeSurfacePerTick = 40000
 
+#Settings for the crafter
+[mover]
+	#Amount of RF used per tick while moving
+	#Range: > 0
+	rfPerTickOperation = 100
+	#Maximum RF storage that the mover can hold
+	#Range: > 0
+	moverMaxRF = 100000
+	#RF per tick that the mover can receive
+	#Range: > 0
+	moverRFPerTick = 1000
+

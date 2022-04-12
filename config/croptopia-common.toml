@@ -6,19 +6,19 @@ rightClickHarvest = true
 
 	#Settings for orange_tree_configured
 	[worldGeneration.orange_tree_configured]
-		biomes = ["minecraft:sunflower_plains", "minecraft:flower_forest", "minecraft:windswept_forest", "minecraft:plains", "minecraft:forest"]
+		biomes = ["minecraft:sunflower_plains", "minecraft:flower_forest", "minecraft:plains", "minecraft:forest", "minecraft:windswept_forest"]
 
 	#Settings for dragon_fruit_tree_configured
 	[worldGeneration.dragon_fruit_tree_configured]
-		biomes = ["minecraft:jungle", "minecraft:sparse_jungle"]
+		biomes = ["minecraft:sparse_jungle", "minecraft:jungle"]
 
 	#Settings for kumquat_tree_configured
 	[worldGeneration.kumquat_tree_configured]
-		biomes = ["minecraft:jungle", "minecraft:sparse_jungle"]
+		biomes = ["minecraft:sparse_jungle", "minecraft:jungle"]
 
 	#Settings for banana_tree_configured
 	[worldGeneration.banana_tree_configured]
-		biomes = ["minecraft:jungle", "minecraft:sparse_jungle"]
+		biomes = ["minecraft:sparse_jungle", "minecraft:jungle"]
 
 	#Settings for plum_tree_configured
 	[worldGeneration.plum_tree_configured]
@@ -26,7 +26,7 @@ rightClickHarvest = true
 
 	#Settings for date_tree_configured
 	[worldGeneration.date_tree_configured]
-		biomes = ["minecraft:jungle", "minecraft:sparse_jungle"]
+		biomes = ["minecraft:sparse_jungle", "minecraft:jungle"]
 
 	#Settings for cashew_tree_configured
 	[worldGeneration.cashew_tree_configured]
@@ -34,11 +34,11 @@ rightClickHarvest = true
 
 	#Settings for mango_tree_configured
 	[worldGeneration.mango_tree_configured]
-		biomes = ["minecraft:jungle", "minecraft:sparse_jungle"]
+		biomes = ["minecraft:sparse_jungle", "minecraft:jungle"]
 
 	#Settings for coconut_tree_configured
 	[worldGeneration.coconut_tree_configured]
-		biomes = ["minecraft:jungle", "minecraft:sparse_jungle"]
+		biomes = ["minecraft:sparse_jungle", "minecraft:jungle"]
 
 	#Settings for apricot_tree_configured
 	[worldGeneration.apricot_tree_configured]
@@ -46,7 +46,7 @@ rightClickHarvest = true
 
 	#Settings for nutmeg_tree_configured
 	[worldGeneration.nutmeg_tree_configured]
-		biomes = ["minecraft:jungle", "minecraft:sparse_jungle"]
+		biomes = ["minecraft:sparse_jungle", "minecraft:jungle"]
 
 	#Settings for persimmon_tree_configured
 	[worldGeneration.persimmon_tree_configured]
@@ -62,19 +62,19 @@ rightClickHarvest = true
 
 	#Settings for fig_tree_configured
 	[worldGeneration.fig_tree_configured]
-		biomes = ["minecraft:jungle", "minecraft:sparse_jungle"]
+		biomes = ["minecraft:sparse_jungle", "minecraft:jungle"]
 
 	#Settings for cinnamon_tree_configured
 	[worldGeneration.cinnamon_tree_configured]
-		biomes = ["minecraft:jungle", "minecraft:sparse_jungle"]
+		biomes = ["minecraft:sparse_jungle", "minecraft:jungle"]
 
 	#Settings for peach_tree_configured
 	[worldGeneration.peach_tree_configured]
-		biomes = ["minecraft:sunflower_plains", "minecraft:plains"]
+		biomes = ["minecraft:plains", "minecraft:sunflower_plains"]
 
 	#Settings for apple_tree_configured
 	[worldGeneration.apple_tree_configured]
-		biomes = ["minecraft:sunflower_plains", "minecraft:plains"]
+		biomes = ["minecraft:plains", "minecraft:sunflower_plains"]
 
 	#Settings for pear_tree_configured
 	[worldGeneration.pear_tree_configured]
@@ -82,7 +82,7 @@ rightClickHarvest = true
 
 	#Settings for grapefruit_tree_configured
 	[worldGeneration.grapefruit_tree_configured]
-		biomes = ["minecraft:jungle", "minecraft:sparse_jungle"]
+		biomes = ["minecraft:sparse_jungle", "minecraft:jungle"]
 
 	#Settings for star_fruit_tree_configured
 	[worldGeneration.star_fruit_tree_configured]
